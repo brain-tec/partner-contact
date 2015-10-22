@@ -70,10 +70,13 @@ class ResPartner(orm.Model):
         In addition an heuristic avoids to keep a firstname without a non-blank
         lastname
         """
+        vals = {}
         field_value = (
             field_value and not field_value.isspace() and field_value or False)
-        vals = {'lastname': field_value, 'firstname': False}
         if field_value:
+            # Changed: The following line was before out of the if, then when name has no value,
+            # it assigned False to lastname leading to troubles
+            vals = {'lastname': field_value, 'firstname': False}
             flds = self.read(
                 cursor, uid, [partner_id], ['firstname', 'is_company'],
                 context=context)[0]
@@ -120,7 +123,7 @@ class ResPartner(orm.Model):
             corr_vals = vals.copy()
             if vals.get('name'):
                 corr_vals['lastname'] = corr_vals['name']
-            del(corr_vals['name'])
+#             del(corr_vals['name'])   # We want to keep the 'name'.
             to_use = corr_vals
         return super(ResPartner, self).create(
             cursor, uid, to_use, context=context)
