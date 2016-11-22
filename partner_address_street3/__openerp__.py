@@ -20,13 +20,12 @@
 ##############################################################################
 {
     'name': 'Street3 in addresses',
-    'version': '0.1',
+    'version': '9.0.0.1.0',
     'author': "Camptocamp,Odoo Community Association (OCA)",
     'maintainer': 'Camptocamp',
     'category': 'Sales',
     'complexity': 'easy',
     'depends': ['base'],
-    'description': """Add a third field to the address""",
     'website': 'http://www.camptocamp.com',
     'data': ['view/partner_view.xml'],
     'demo': [],
