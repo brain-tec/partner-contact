@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    Author: Nicolas Bessi. Copyright Camptocamp SA
+#    Author: Nicolas Bessi
+#    Copyright 2014 Camptocamp SA
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -18,36 +19,20 @@
 #
 ##############################################################################
 {
-    'name': 'Partner first name, last name',
-    'description': """
-This module splits first name and last name for non company partners
-====================================================================
-
-The field 'name' becomes a stored function field concatenating lastname and
-firstname
-Note: in version 7.0, installing this module invalidates a yaml test in the
-'edi' module
-
-Contributors
-============
-Jonathan Nemry <jonathan.nemry@acsone.eu>
-Olivier Laurent <olivier.laurent@acsone.eu>
-
-""",
-    'version': '7.0.1.2.0',
-    'author': "Camptocamp,Odoo Community Association (OCA)",
-    "license": "AGPL-3",
-    'maintainer': 'Camptocamp, Acsone',
-    'category': 'Extra Tools',
-    'website': 'http://www.camptocamp.com, http://www.acsone.eu',
+    'name': 'Street3 in addresses',
+    'version': '7.0.0.1.0',
+    'author': 'Camptocamp, Odoo Community Association (OCA)',
+    'maintainer': 'Camptocamp',
+    'category': 'Sales',
+    'complexity': 'easy',
     'depends': ['base'],
-    'data': [
-        'partner_view.xml',
-        'res_user_view.xml',
-    ],
+    'description': """Add a third field to the address""",
+    'website': 'http://www.camptocamp.com',
+    'data': ['view/partner_view.xml'],
     'demo': [],
     'test': [],
-    'auto_install': False,
     'installable': True,
-    'images': []
+    'auto_install': False,
+    'license': 'AGPL-3',
+    'application': False,
 }
