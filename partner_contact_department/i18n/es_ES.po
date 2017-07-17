@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 9.0c\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-24 01:41+0000\n"
-"PO-Revision-Date: 2016-11-24 01:41+0000\n"
+"POT-Creation-Date: 2017-06-02 00:47+0000\n"
+"PO-Revision-Date: 2017-06-02 00:47+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2016\n"
 "Language-Team: Spanish (Spain) (https://www.transifex.com/oca/teams/23907/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr ""
 #. module: partner_contact_department
 #: model:ir.model.fields,field_description:partner_contact_department.field_res_partner_department_display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nombre para mostrar"
 
 #. module: partner_contact_department
 #: code:addons/partner_contact_department/models/res_partner.py:43
@@ -60,14 +60,14 @@ msgid "Error! You cannot create recursive departments."
 msgstr ""
 
 #. module: partner_contact_department
-#: model:ir.model.fields,field_description:partner_contact_department.field_res_partner_department_id_1323
+#: model:ir.model.fields,field_description:partner_contact_department.field_res_partner_department_id_1354
 msgid "ID"
 msgstr "ID"
 
 #. module: partner_contact_department
 #: model:ir.model.fields,field_description:partner_contact_department.field_res_partner_department___last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Última modificación en"
 
 #. module: partner_contact_department
 #: model:ir.model.fields,field_description:partner_contact_department.field_res_partner_department_write_uid
