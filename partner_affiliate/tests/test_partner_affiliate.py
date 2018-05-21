@@ -5,8 +5,9 @@ class TestPartnerAffiliate(common.TransactionCase):
 
     def setUp(self):
         super(TestPartnerAffiliate, self).setUp()
+        self.partner_obj = self.env['res.partner']
 
-        self.first_parent = self.env['res.partner'].create({
+        self.first_parent = self.partner_obj.create({
             'name': 'MyFirstParentForTheAffiliate',
             'type': 'contact',
             'is_company': True,
@@ -16,7 +17,7 @@ class TestPartnerAffiliate(common.TransactionCase):
             'city': 'Test City',
         })
 
-        self.second_parent = self.env['res.partner'].create({
+        self.second_parent = self.partner_obj.create({
             'name': 'MySecondParentForTheAffiliate',
             'type': 'contact',
             'is_company': True,
@@ -26,8 +27,10 @@ class TestPartnerAffiliate(common.TransactionCase):
             'city': 'Test City',
         })
 
+    # Check data integrity of the objects when an affiliate is given a new
+    # parent. So both objects keeps their data.
     def test_change_parent_from_a_new_affiliate(self):
-        new_affiliate = self.env['res.partner'].create({
+        new_affiliate = self.partner_obj.create({
             'name': 'MyTestAffiliate',
             'is_company': True,
             'parent_id': self.first_parent.id,
@@ -57,17 +60,19 @@ class TestPartnerAffiliate(common.TransactionCase):
 
         # The parent have been changed. And is not the first one.
         self.assertEquals(new_affiliate.parent_id.id, self.second_parent.id)
-        self.assertNotEquals(new_affiliate.parent_id.id, self.first_parent.id)
 
-        # The data for the street of the first parent have not been changed.
+        # The affiliate keeps its data for the street. Not modified.
         self.assertEquals(new_affiliate.street, "affiliate street",
                           "keeps the same street")
-        # The affiliate keeps its data for the street. Not modified.
+        # The data for the street of the first parent have not been changed.
         self.assertEquals(self.first_parent.street, "first parent street",
                           "keeps the same street")
 
+
+    # Check that the default value for 'type' defined by default in the view
+    # is set correctly when a new affiliate is created.
     def test_new_affiliate_is_created_with_type_affiliate_by_default(self):
-        new_affiliate = self.env['res.partner'].with_context(
+        new_affiliate = self.partner_obj.with_context(
             {'default_parent_id': self.first_parent.id,
              'default_is_company': True,
              'default_type': 'affiliate'
