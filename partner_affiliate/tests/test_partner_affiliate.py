@@ -55,7 +55,7 @@ class TestPartnerAffiliate(common.TransactionCase):
                           "The parent continues with his original street")
 
         # Change the parent of the affiliate for the second one in the set-up.
-        new_affiliate.write({'parent_id': self.second_parent.id})
+        new_affiliate.parent_id = self.second_parent.id
         new_affiliate.onchange_parent_id()
 
         # The parent have been changed. And is not the first one.
