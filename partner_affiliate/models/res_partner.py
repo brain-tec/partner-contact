@@ -3,7 +3,7 @@
 # Copyright 2018 brain-tec AG - Raul Martin
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-from odoo import fields, models, api
+from odoo import fields, models, api, _
 
 
 class ResPartner(models.Model):
@@ -23,3 +23,31 @@ class ResPartner(models.Model):
                                     string='Affiliates',
                                     domain=[('active', '=', True),
                                             ('is_company', '=', True)])
+
+    @api.onchange('parent_id')
+    def onchange_parent_id(self):
+        # Keep the original address info to set it back if is a company.
+        original_address = self.get_original_address()
+
+        new_partner = super(ResPartner, self).onchange_parent_id()
+
+        # When the affiliate is a company, we must set back its address
+        # because the super call changes its address by the new parent address.
+        # In addition, the type must be set to affiliate instead of contact.
+        if self.is_company:
+            self.type = 'affiliate'
+            self.update_address(original_address)
+            return
+
+        return new_partner
+
+    def get_original_address(self):
+        def convert(value):
+            return value.id if isinstance(value, models.BaseModel) else value
+
+        result = {}
+        if any(self.parent_id[key] for key in self._address_fields()):
+            result['value'] = {key: convert(self.parent_id[key])
+                               for key in self._address_fields()}
+
+        return result
