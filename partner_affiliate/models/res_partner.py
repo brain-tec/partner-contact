@@ -24,9 +24,18 @@ class ResPartner(models.Model):
                                     domain=[('active', '=', True),
                                             ('is_company', '=', True)])
 
+    def get_original_address(self):
+        def convert(value):
+            return value.id if isinstance(value, models.BaseModel) else value
+
+        result = {'value': {key: convert(self[key])
+                            for key in self._address_fields()}}
+
+        return result
+
     @api.onchange('parent_id')
     def onchange_parent_id(self):
-        # Keep the original address info to set it back if is a company.
+        # Keep the original address info to set it back if its a company.
         original_address = self.get_original_address()
 
         new_partner = super(ResPartner, self).onchange_parent_id()
@@ -35,19 +44,7 @@ class ResPartner(models.Model):
         # because the super call changes its address by the new parent address.
         # In addition, the type must be set to affiliate instead of contact.
         if self.is_company:
-            self.type = 'affiliate'
-            self.update_address(original_address)
-            return
+            new_partner.update(original_address)
+            new_partner['value'].update({'type': 'affiliate'})
 
         return new_partner
-
-    def get_original_address(self):
-        def convert(value):
-            return value.id if isinstance(value, models.BaseModel) else value
-
-        result = {}
-        if any(self.parent_id[key] for key in self._address_fields()):
-            result['value'] = {key: convert(self.parent_id[key])
-                               for key in self._address_fields()}
-
-        return result
