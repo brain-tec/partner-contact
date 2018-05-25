@@ -3,7 +3,7 @@
 # Copyright 2018 brain-tec AG - Raul Martin
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-from odoo import fields, models, api, _
+from odoo import fields, models, api
 
 
 class ResPartner(models.Model):
