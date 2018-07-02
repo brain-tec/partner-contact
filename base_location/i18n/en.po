@@ -24,7 +24,7 @@ msgstr "Cites/locations Management"
 #. module: better_zip
 #: field:res.better.zip,city:0
 msgid "City"
-msgstr "Ville"
+msgstr "City"
 
 #. module: better_zip
 #: view:res.better.zip:0 field:res.better.zip,name:0
@@ -34,22 +34,22 @@ msgstr "ZIP"
 #. module: better_zip
 #: field:res.better.zip,country_id:0
 msgid "Country"
-msgstr "Pays"
+msgstr "Country"
 
 #. module: better_zip
 #: field:res.better.zip,priority:0
 msgid "Priority"
-msgstr "Priorité"
+msgstr "Priority"
 
 #. module: better_zip
 #: model:ir.model,name:better_zip.model_res_company
 msgid "Companies"
-msgstr "Sociétés"
+msgstr "Companies"
 
 #. module: better_zip
 #: field:res.better.zip,code:0
 msgid "City Code"
-msgstr "Code de la ville"
+msgstr "City Code"
 
 #. module: better_zip
 #: model:ir.model,name:better_zip.model_res_better_zip
@@ -59,17 +59,17 @@ msgstr " City/locations completion object"
 #. module: better_zip
 #: help:res.company,better_zip_id:0
 msgid "Use the city name or the zip code to search the location"
-msgstr "Utilisez le nom de la ville ou le zip lors des recherches"
+msgstr "Use the city name or the zip code to search the location"
 
 #. module: better_zip
 #: field:res.partner,zip_id:0
 msgid "City/Location"
-msgstr "Ville/location"
+msgstr "City/Location"
 
 #. module: better_zip
 #: field:res.better.zip,state_id:0
 msgid "State"
-msgstr "Etat"
+msgstr "State"
 
 #. module: better_zip
 #: field:res.company,better_zip_id:0
@@ -84,24 +84,24 @@ msgstr "Cities/Locations Management"
 #. module: better_zip
 #: model:ir.model,name:better_zip.model_res_partner
 msgid "Partner"
-msgstr "Partenaire"
+msgstr "Partner"
 
 #. module: better_zip
 #: view:res.company:0 view:res.partner:0
 msgid "City completion"
-msgstr "Complétion par ville"
+msgstr "City completion"
 
 #. module: better_zip
 #: field:res.country.state,better_zip_ids:0
 msgid "Cities"
-msgstr "Villes"
+msgstr "Cities"
 
 #. module: better_zip
 #: model:ir.model,name:better_zip.model_res_country_state
 msgid "Country state"
-msgstr "Etat"
+msgstr "Country state"
 
 #. module: better_zip
 #: help:res.better.zip,code:0
 msgid "The official code for the city"
-msgstr "Code officiel de la ville"
+msgstr "The official code for the city"

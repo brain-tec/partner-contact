@@ -20,9 +20,9 @@
 #
 ##############################################################################
 {'name': 'Location management (aka Better ZIP)',
- 'version': '1.0',
+ 'version': '0.3',
  'depends': ['base'],
- 'author': "Camptocamp,Odoo Community Association (OCA)",
+ 'author': 'Camptocamp',
  'description': """
 Introduces a better zip/npa management system.
 It enables zip/city auto-completion on partners""",
