@@ -93,3 +93,25 @@ class TestPartnerAffiliate(common.TransactionCase):
         # The affiliate gets the address from the new parent.
         self.assertEquals(my_individual.street, "second company street",
                           "keeps the same street")
+
+    def test_affiliate_is_unlinked_instead_of_removed(self):
+        values = {'affiliate_ids': [[0, 0, {'name': 'MyNewAffiliate',
+                                            'default_parent_id':
+                                                self.first_company.id,
+                                            'default_is_company': True,
+                                            'default_type': 'affiliate'
+                                            }]]}
+        # Add a new affiliate to the company.
+        self.first_company.write(values)
+
+        # Retrieve the affiliate just created and check it have been linked.
+        new_affiliate = self.env['res.partner'].search(
+            [('name', '=', 'MyNewAffiliate')])
+        self.assertEquals(new_affiliate.parent_id.id, self.first_company.id)
+
+        # Try to DELETE the affiliate (2). It will be unlinked (3) instead.
+        self.first_company.write(
+            {'affiliate_ids': [[2, new_affiliate.id, False]]})
+
+        # Check the affiliate have been unlinked, and not removed.
+        self.assertFalse(new_affiliate.parent_id)
