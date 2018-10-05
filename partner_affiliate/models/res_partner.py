@@ -48,3 +48,19 @@ class ResPartner(models.Model):
             new_partner['value'].update({'type': 'affiliate'})
 
         return new_partner
+
+    @api.multi
+    def write(self, values):
+        # In case of a removal of an affiliate, the affiliate must be
+        # 'un-linked' instead of removed from the database.
+        #
+        # By default, calls the write with '2' because affiliate_ids is a O2M
+        # to res_partner.parent_id which have attribute ondelete='cascade'.
+        # As we do not want to break the core behaviour for other features,
+        # here we are changing the '2' (DELETE) for a '3' (UNLINK)
+        if 'affiliate_ids' in values:
+            for affiliate in values['affiliate_ids']:
+                if affiliate[0] == 2:
+                    affiliate[0] = 3
+
+        return super(ResPartner, self).write(values)
