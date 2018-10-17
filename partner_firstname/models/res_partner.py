@@ -138,6 +138,7 @@ class ResPartner(models.Model):
         Removes leading, trailing and duplicated whitespace.
         """
 
+        # [t112702] FIX from LDAP server
         if isinstance(type(name), bytes):
             try:
                 name = name.decode('utf-8').split()
