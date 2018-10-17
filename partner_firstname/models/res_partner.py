@@ -145,7 +145,10 @@ class ResPartner(models.Model):
             except:
                 _logger.debug("The name is not well formed for being cleaned")
         else:
-            name = name.split()
+            if name:
+                name = name.split()
+            else:
+                return ''
 
         name = " ".join(name) if name else name
 
