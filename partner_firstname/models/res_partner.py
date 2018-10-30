@@ -139,18 +139,16 @@ class ResPartner(models.Model):
         """
 
         # [t112702] FIX from LDAP server
-        if isinstance(type(name), bytes):
-            try:
-                name = name.decode('utf-8').split()
-            except:
-                _logger.debug("The name is not well formed for being cleaned")
-        else:
-            if name:
-                name = name.split()
-            else:
-                return ''
-
-        name = " ".join(name) if name else name
+        try:
+            name = " ".join(name.split()) if name else name
+        except:
+            # with users coming from LDAP, name can be a str encoded as utf-8
+            # this happens with ActiveDirectory for instance, and in that case
+            # we get a UnicodeDecodeError during the automatic ASCII -> Unicode
+            # conversion that Python does for us.
+            # In that case we need to manually decode the string to get a
+            # proper unicode string.
+            name = ' '.join(name.decode('utf-8').split()) if name else name
 
         if comma:
             name = name.replace(" ,", ",")
