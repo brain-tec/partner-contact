@@ -14,6 +14,7 @@ setuptools.setup(
         'odoo12-addon-base_vat_sanitized',
         'odoo12-addon-partner_address_street3',
         'odoo12-addon-partner_affiliate',
+        'odoo12-addon-partner_coc',
         'odoo12-addon-partner_contact_personal_information_page',
         'odoo12-addon-partner_disable_gravatar',
         'odoo12-addon-partner_employee_quantity',
@@ -22,6 +23,7 @@ setuptools.setup(
         'odoo12-addon-partner_firstname',
         'odoo12-addon-partner_identification',
         'odoo12-addon-partner_multi_relation',
+        'odoo12-addon-partner_vat_unique',
     ],
     classifiers=[
         'Programming Language :: Python',
