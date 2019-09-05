@@ -31,7 +31,7 @@
             </field>
         </record>
 
-        <record id="search_res_partner_relation_all" model="ir.ui.view">
+       <record id="search_res_partner_relation_all" model="ir.ui.view">
             <field name="model">res.partner.relation.all</field>
             <field name="arch" type="xml">
                 <search string="Search Relations">
@@ -40,27 +40,33 @@
                     <field name="other_partner_id"/>
                     <field name="type_selection_id"/>
                     <filter
+                        name="left_to_right"
                         string="Left to right"
                         domain="[('is_inverse', '=', False)]"
                         />
                     <filter
+                        name="right_to_left"
                         string="Right to left"
                         domain="[('is_inverse', '=', True)]"
                         />
                     <filter
+                        name="linclude_past_records"
                         string="Include past records"
                         context="{'active_test': False}"
                         />
                     <group expand="0" string="Group By">
                         <filter
+                            name="one_partner"
                             string="One Partner"
                             context="{'group_by': 'this_partner_id'}"
                             />
                         <filter
+                            name="relation_type"
                             string="Relationship Type"
                             context="{'group_by': 'type_selection_id'}"
                             />
                         <filter
+                            name="other_partner"
                             string="Other Partner"
                             context="{'group_by': 'other_partner_id'}"
                             />
