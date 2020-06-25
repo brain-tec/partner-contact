@@ -7,7 +7,7 @@ import logging
 from psycopg2.extensions import AsIs
 
 from odoo import _, api, fields, models
-from odoo.exceptions import ValidationError
+from odoo.exceptions import MissingError, ValidationError
 from odoo.tools import drop_view_if_exists
 
 
@@ -50,8 +50,7 @@ class ResPartnerRelationAll(models.Model):
     _log_access = False
     _name = 'res.partner.relation.all'
     _description = 'All (non-inverse + inverse) relations between partners'
-    _order = \
-        'this_partner_id, type_selection_id, date_end desc, date_start desc'
+    _order = 'this_partner_id, type_selection_id, date_end desc, date_start desc'
 
     res_model = fields.Char(
         string='Resource Model',
@@ -96,8 +95,7 @@ class ResPartnerRelationAll(models.Model):
         compute=lambda self: None,
         search='_search_any_partner_id')
 
-    def register_specification(
-            self, register, base_name, is_inverse, select_sql):
+    def register_specification(self, register, base_name, is_inverse, select_sql):
         _last_key_offset = register['_lastkey']
         key_name = base_name + (is_inverse and '_inverse' or '')
         assert key_name not in register
@@ -120,16 +118,80 @@ class ResPartnerRelationAll(models.Model):
     def get_register(self):
         register = collections.OrderedDict()
         register['_lastkey'] = -1
-        self.register_specification(
-            register, 'relation', False, RELATIONS_SQL)
-        self.register_specification(
-            register, 'relation', True, RELATIONS_SQL_INVERSE)
+        self.register_specification(register, 'relation', False, RELATIONS_SQL)
+        self.register_specification(register, 'relation', True, RELATIONS_SQL_INVERSE)
         return register
 
     def get_select_specification(self, base_name, is_inverse):
         register = self.get_register()
         key_name = base_name + (is_inverse and '_inverse' or '')
         return register[key_name]
+
+    def _get_statement(self):
+        """Allow other modules to add to statement."""
+        register = self.get_register()
+        union_select = ' UNION '.join(
+            [register[key]['select_sql'] for key in register if key != '_lastkey']
+        )
+        return """\
+CREATE OR REPLACE VIEW %%(table)s AS
+     WITH base_selection AS (%(union_select)s)
+ SELECT
+     bas.*,
+     CASE
+         WHEN NOT bas.is_inverse OR typ.is_symmetric
+         THEN bas.type_id * 2
+         ELSE (bas.type_id * 2) + 1
+     END as type_selection_id,
+     (bas.date_end IS NULL OR bas.date_end >= current_date) AS active
+     %%(additional_view_fields)s
+ FROM base_selection bas
+ JOIN res_partner_relation_type typ ON (bas.type_id = typ.id)
+ %%(additional_tables)s
+        """ % {
+            'union_select': union_select
+        }
+
+    def _get_padding(self):
+        """Utility function to define padding in one place."""
+        return 100
+
+    def _get_additional_relation_columns(self):
+        """Get additionnal columns from res_partner_relation.
+        This allows to add fields to the model res.partner.relation
+        and display these fields in the res.partner.relation.all list view.
+        :return: ', rel.column_a, rel.column_b_id'
+        """
+        return ''
+
+    def _get_additional_view_fields(self):
+        """Allow inherit models to add fields to view.
+        If fields are added, the resulting string must have each field
+        prepended by a comma, like so:
+            return ', typ.allow_self, typ.left_partner_category'
+        """
+        return ''
+
+    def _get_additional_tables(self):
+        """Allow inherit models to add tables (JOIN's) to view.
+        Example:
+            return 'JOIN type_extention ext ON (bas.type_id = ext.id)'
+        """
+        return ''
+
+    def _auto_init(self):
+        cr = self._cr
+        drop_view_if_exists(cr, self._table)
+        cr.execute(
+            self._get_statement(),
+            {
+                'table': AsIs(self._table),
+                'padding': self._get_padding(),
+                'additional_view_fields': AsIs(self._get_additional_view_fields()),
+                'additional_tables': AsIs(self._get_additional_tables()),
+            },
+        )
+        return super(ResPartnerRelationAll, self)._auto_init()
 
     @api.model
     def _search_any_partner_id(self, operator, value):
@@ -146,7 +208,9 @@ class ResPartnerRelationAll(models.Model):
                 this.this_partner_id.name,
                 this.type_selection_id.display_name,
                 this.other_partner_id.name,
-            ) for this in self}
+            )
+            for this in self
+        }
 
     @api.onchange('type_selection_id')
     def onchange_type_selection_id(self):
@@ -166,13 +230,9 @@ class ResPartnerRelationAll(models.Model):
             if not partners_found:
                 warning['title'] = _('Error!')
                 if partner:
-                    warning['message'] = (
-                        _('%s partner incompatible with relation type.') %
-                        side.title())
+                    warning['message'] = (_('%s partner incompatible with relation type.') % side.title())
                 else:
-                    warning['message'] = (
-                        _('No %s partner available for relation type.') %
-                        side)
+                    warning['message'] = (_('No %s partner available for relation type.') % side)
             return warning
 
         this_partner_domain = []
@@ -204,12 +264,13 @@ class ResPartnerRelationAll(models.Model):
             if bool(self.this_partner_id.id):
                 this_partner = self.this_partner_id
             else:
-                this_partner_id = \
-                    'default_this_partner_id' in self.env.context and \
-                    self.env.context['default_this_partner_id'] or \
-                    'active_id' in self.env.context and \
-                    self.env.context['active_id'] or \
-                    False
+                this_partner_id = (
+                    'default_this_partner_id' in self.env.context
+                    and self.env.context['default_this_partner_id']
+                    or 'active_id' in self.env.context
+                    and self.env.context['active_id']
+                    or False
+                )
                 if this_partner_id:
                     this_partner = partner_model.browse(this_partner_id)
             warning = check_partner_domain(
@@ -328,8 +389,7 @@ class ResPartnerRelationAll(models.Model):
             if type_id:
                 is_inverse = vals.get('is_inverse')
                 type_selection_id = type_id * 2 + (is_inverse and 1 or 0)
-        return type_selection_id and self.type_selection_id.browse(
-            type_selection_id) or False
+        return type_selection_id and self.type_selection_id.browse(type_selection_id) or False
 
     def write(self, vals):
         """For model 'res.partner.relation' call write on underlying model.
@@ -366,13 +426,11 @@ class ResPartnerRelationAll(models.Model):
     @api.model
     def create(self, vals):
         """Divert non-problematic creates to underlying table.
-
         Create a res.partner.relation but return the converted id.
         """
         type_selection = self._get_type_selection_from_vals(vals)
         if not type_selection:  # Should not happen
-            raise ValidationError(
-                _('No relation type specified in vals: %s.') % vals)
+            raise ValidationError(_('No relation type specified in vals: %s.') % vals)
         vals = self._correct_vals(vals, type_selection)
         base_resource = self.create_resource(vals, type_selection)
         res_id = self._compute_id(base_resource, type_selection)
@@ -391,6 +449,9 @@ class ResPartnerRelationAll(models.Model):
         """For model 'res.partner.relation' call unlink on underlying model.
         """
         for rec in self:
-            base_resource = rec.get_base_resource()
+            try:
+                base_resource = rec.get_base_resource()
+            except MissingError:
+                continue
             rec.unlink_resource(base_resource)
         return True
