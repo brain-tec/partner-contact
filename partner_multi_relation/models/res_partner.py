@@ -6,6 +6,8 @@ import numbers
 from odoo import _, api, exceptions, fields, models
 from odoo.osv.expression import FALSE_LEAF, OR, is_leaf
 
+import ast
+
 
 class ResPartner(models.Model):
     """Extend partner with relations and allow to search for relations
@@ -196,14 +198,14 @@ class ResPartner(models.Model):
                 "partner_multi_relation.action_res_partner_relation_all"
             ).read()[0]
             action["domain"] = [("id", "in", relation_ids.ids)]
-            action["context"].update(
-                {
-                    "search_default_this_partner_id": contact.id,
-                    "default_this_partner_id": contact.id,
-                    "active_model": "res.partner",
-                    "active_id": contact.id,
-                    "active_ids": [contact.id],
-                    "active_test": False,
-                }
-            )
+            context_dict = ast.literal_eval(action['context'])
+            context_dict.update({
+                'search_default_this_partner_id': contact.id,
+                'default_this_partner_id': contact.id,
+                'active_model': 'res.partner',
+                'active_id': contact.id,
+                'active_ids': [contact.id],
+                'active_test': False
+            })
+            action['context'] = context_dict
             return action
