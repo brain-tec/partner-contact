@@ -2,6 +2,13 @@
 [![Build Status](https://travis-ci.org/OCA/partner-contact.svg?branch=13.0)](https://travis-ci.org/OCA/partner-contact)
 [![Coverage Status](https://coveralls.io/repos/OCA/partner-contact/badge.svg?branch=13.0)](https://coveralls.io/r/OCA/partner-contact?branch=13.0)
 
+BT Customizations
+=================
+
+Open OCA PRs merged
+- (https://github.com/OCA/partner-contact/pull/936) partner_multi_relation
+
+
 OCA partner and contact management modules for Odoo
 ===================================================
 
