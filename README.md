@@ -21,8 +21,10 @@ addon | version | summary
 --- | --- | ---
 [base_location](base_location/) | 14.0.1.0.1 | Enhanced zip/npa management system
 [base_location_geonames_import](base_location_geonames_import/) | 14.0.1.0.0 | Import zip entries from Geonames
+[partner_company_group](partner_company_group/) | 14.0.1.0.1 | Adds the possibility to add a company group to a company
 [partner_company_type](partner_company_type/) | 14.0.1.0.1 | Adds a company type to partner that are companies
 [partner_contact_access_link](partner_contact_access_link/) | 14.0.1.0.0 | Allow to visit the full contact form from a company
+[partner_contact_age_range](partner_contact_age_range/) | 14.0.1.0.1 | Age Range for Contact's
 [partner_contact_birthdate](partner_contact_birthdate/) | 14.0.1.0.0 | Contact's birthdate
 [partner_contact_department](partner_contact_department/) | 14.0.1.0.1 | Assign contacts to departments
 [partner_contact_gender](partner_contact_gender/) | 14.0.1.0.1 | Add gender field to contacts
@@ -32,6 +34,7 @@ addon | version | summary
 [partner_contact_personal_information_page](partner_contact_personal_information_page/) | 14.0.1.0.0 | Add a page to contacts form to put personal information
 [partner_fax](partner_fax/) | 14.0.1.0.0 | Add fax number on partner
 [partner_firstname](partner_firstname/) | 14.0.1.0.1 | Split first name and last name for non company partners
+[partner_iterative_archive](partner_iterative_archive/) | 14.0.1.0.1 | Archive all contacts when parent is archived
 [partner_phone_extension](partner_phone_extension/) | 14.0.1.0.1 | Partner Phone Number Extension
 [partner_phone_secondary](partner_phone_secondary/) | 14.0.1.0.0 | Adds a secondary phone number on partners
 [partner_priority](partner_priority/) | 14.0.1.0.0 | Adds priority to partners.

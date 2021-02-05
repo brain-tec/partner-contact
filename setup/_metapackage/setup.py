@@ -10,8 +10,10 @@ setuptools.setup(
     install_requires=[
         'odoo14-addon-base_location',
         'odoo14-addon-base_location_geonames_import',
+        'odoo14-addon-partner_company_group',
         'odoo14-addon-partner_company_type',
         'odoo14-addon-partner_contact_access_link',
+        'odoo14-addon-partner_contact_age_range',
         'odoo14-addon-partner_contact_birthdate',
         'odoo14-addon-partner_contact_department',
         'odoo14-addon-partner_contact_gender',
@@ -21,6 +23,7 @@ setuptools.setup(
         'odoo14-addon-partner_contact_personal_information_page',
         'odoo14-addon-partner_fax',
         'odoo14-addon-partner_firstname',
+        'odoo14-addon-partner_iterative_archive',
         'odoo14-addon-partner_phone_extension',
         'odoo14-addon-partner_phone_secondary',
         'odoo14-addon-partner_priority',
