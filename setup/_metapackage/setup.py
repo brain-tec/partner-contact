@@ -8,8 +8,10 @@ setuptools.setup(
     description="Meta package for oca-partner-contact Odoo addons",
     version=version,
     install_requires=[
+        'odoo14-addon-base_country_state_translatable',
         'odoo14-addon-base_location',
         'odoo14-addon-base_location_geonames_import',
+        'odoo14-addon-partner_address_version',
         'odoo14-addon-partner_company_group',
         'odoo14-addon-partner_company_type',
         'odoo14-addon-partner_contact_access_link',
@@ -21,6 +23,7 @@ setuptools.setup(
         'odoo14-addon-partner_contact_lang',
         'odoo14-addon-partner_contact_nationality',
         'odoo14-addon-partner_contact_personal_information_page',
+        'odoo14-addon-partner_employee_quantity',
         'odoo14-addon-partner_fax',
         'odoo14-addon-partner_firstname',
         'odoo14-addon-partner_iterative_archive',
@@ -29,6 +32,7 @@ setuptools.setup(
         'odoo14-addon-partner_priority',
         'odoo14-addon-partner_ref_unique',
         'odoo14-addon-partner_second_lastname',
+        'odoo14-addon-partner_tier_validation',
         'odoo14-addon-partner_vat_unique',
     ],
     classifiers=[

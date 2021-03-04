@@ -19,8 +19,10 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
+[base_country_state_translatable](base_country_state_translatable/) | 14.0.1.0.0 | Translate Country States
 [base_location](base_location/) | 14.0.1.0.1 | Enhanced zip/npa management system
 [base_location_geonames_import](base_location_geonames_import/) | 14.0.1.0.0 | Import zip entries from Geonames
+[partner_address_version](partner_address_version/) | 14.0.1.0.0 | Partner Address Version
 [partner_company_group](partner_company_group/) | 14.0.1.0.1 | Adds the possibility to add a company group to a company
 [partner_company_type](partner_company_type/) | 14.0.1.0.1 | Adds a company type to partner that are companies
 [partner_contact_access_link](partner_contact_access_link/) | 14.0.1.0.0 | Allow to visit the full contact form from a company
@@ -32,6 +34,7 @@ addon | version | summary
 [partner_contact_lang](partner_contact_lang/) | 14.0.1.0.0 | Manage language in contacts
 [partner_contact_nationality](partner_contact_nationality/) | 14.0.1.0.1 | Add nationality field to contacts
 [partner_contact_personal_information_page](partner_contact_personal_information_page/) | 14.0.1.0.0 | Add a page to contacts form to put personal information
+[partner_employee_quantity](partner_employee_quantity/) | 14.0.1.0.0 | Know how many employees a partner has
 [partner_fax](partner_fax/) | 14.0.1.0.0 | Add fax number on partner
 [partner_firstname](partner_firstname/) | 14.0.1.0.1 | Split first name and last name for non company partners
 [partner_iterative_archive](partner_iterative_archive/) | 14.0.1.0.1 | Archive all contacts when parent is archived
@@ -40,6 +43,7 @@ addon | version | summary
 [partner_priority](partner_priority/) | 14.0.1.0.0 | Adds priority to partners.
 [partner_ref_unique](partner_ref_unique/) | 14.0.1.0.0 | Add an unique constraint to partner ref field
 [partner_second_lastname](partner_second_lastname/) | 14.0.1.0.0 | Have split first and second lastnames
+[partner_tier_validation](partner_tier_validation/) | 14.0.1.0.0 | Extends the functionality of Contacts tosupport a tier validation process.
 [partner_vat_unique](partner_vat_unique/) | 14.0.1.0.0 | Module to make the VAT number unique for customers and suppliers.
 
 [//]: # (end addons)
