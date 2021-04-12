@@ -11,6 +11,7 @@ setuptools.setup(
         'odoo14-addon-base_country_state_translatable',
         'odoo14-addon-base_location',
         'odoo14-addon-base_location_geonames_import',
+        'odoo14-addon-base_location_nuts',
         'odoo14-addon-base_partner_sequence',
         'odoo14-addon-partner_address_version',
         'odoo14-addon-partner_affiliate',
@@ -21,6 +22,7 @@ setuptools.setup(
         'odoo14-addon-partner_contact_birthdate',
         'odoo14-addon-partner_contact_department',
         'odoo14-addon-partner_contact_gender',
+        'odoo14-addon-partner_contact_in_several_companies',
         'odoo14-addon-partner_contact_job_position',
         'odoo14-addon-partner_contact_lang',
         'odoo14-addon-partner_contact_nationality',
@@ -37,6 +39,7 @@ setuptools.setup(
         'odoo14-addon-partner_second_lastname',
         'odoo14-addon-partner_tier_validation',
         'odoo14-addon-partner_vat_unique',
+        'odoo14-addon-portal_partner_select_all',
     ],
     classifiers=[
         'Programming Language :: Python',
