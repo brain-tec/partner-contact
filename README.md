@@ -24,6 +24,7 @@ addon | version | summary
 [base_location_geonames_import](base_location_geonames_import/) | 14.0.1.0.0 | Import zip entries from Geonames
 [base_location_nuts](base_location_nuts/) | 14.0.1.0.1 | NUTS Regions
 [base_partner_sequence](base_partner_sequence/) | 14.0.1.0.1 | Sets customer's code from a sequence
+[partner_address_street3](partner_address_street3/) | 14.0.1.0.0 | Add a third address line on partners
 [partner_address_version](partner_address_version/) | 14.0.1.0.0 | Partner Address Version
 [partner_affiliate](partner_affiliate/) | 14.0.1.0.1 | Partner Affiliates
 [partner_company_group](partner_company_group/) | 14.0.1.0.1 | Adds the possibility to add a company group to a company
@@ -51,7 +52,7 @@ addon | version | summary
 [partner_priority](partner_priority/) | 14.0.1.0.0 | Adds priority to partners.
 [partner_ref_unique](partner_ref_unique/) | 14.0.1.0.0 | Add an unique constraint to partner ref field
 [partner_second_lastname](partner_second_lastname/) | 14.0.1.0.0 | Have split first and second lastnames
-[partner_tier_validation](partner_tier_validation/) | 14.0.1.1.0 | Support a tier validation process for Contacts
+[partner_tier_validation](partner_tier_validation/) | 14.0.2.0.0 | Support a tier validation process for Contacts
 [partner_vat_unique](partner_vat_unique/) | 14.0.1.0.0 | Module to make the VAT number unique for customers and suppliers.
 [portal_partner_select_all](portal_partner_select_all/) | 14.0.1.1.0 | Portal Partner Select All
 
