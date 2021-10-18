@@ -1,0 +1,10 @@
+git_repositories:
+  - repository: git@github.com:brain-tec/odoo.git
+    branch: 15.0
+    commitortag: f92a616525ea79f2061deb9f6002bc9bc0c14801
+  - repository: git@github.com:brain-tec/enterprise.git
+    branch: 15.0
+    commitortag: f02adfe2b3a0137a764b977fb37a2ae29380ac89
+  - repository: git@github.com:brain-tec/partner-contact.git
+    branch: 15.0
+    mainrepo: True
