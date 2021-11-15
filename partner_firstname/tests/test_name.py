@@ -52,11 +52,11 @@ class PartnerContactCase(BaseCase):
 
 
 class PartnerCompanyCase(BaseCase):
-    def create_original(self):
+    def create_original(self):  # pylint: disable=missing-return
         super(PartnerCompanyCase, self).create_original()
         self.original.is_company = True
 
-    def test_copy(self):
+    def test_copy(self):  # pylint: disable=missing-return
         """Copy the partner and compare the result."""
         super(PartnerCompanyCase, self).test_copy()
         self.expect(self.name, False, self.name)
@@ -81,7 +81,7 @@ class UserCase(PartnerContactCase):
                 {"name": name, "login": "firstnametest@example.com"}
             )
 
-    def test_copy(self):
+    def test_copy(self):  # pylint: disable=missing-return
         """Copy the partner and compare the result."""
         # Skip if ``mail`` is installed
         if not self.mail_installed():
