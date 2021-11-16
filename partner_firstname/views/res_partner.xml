@@ -5,6 +5,22 @@
         <field name="inherit_id" ref="base.view_partner_simple_form" />
         <field name="arch" type="xml">
             <data>
+                <xpath expr="//field[@id='individual']" position="attributes">
+                    <attribute name="attrs">
+                        {
+                        'readonly': [('is_company', '=', False)],
+                        'required': [('type', '=', 'contact'), ('is_company', '=', True)]
+                        }
+                    </attribute>
+                </xpath>
+                <xpath expr="//field[@id='company']" position="attributes">
+                    <attribute name="attrs">
+                        {
+                        'readonly': [('is_company', '=', False)],
+                        'required': [('type', '=', 'contact'), ('is_company', '=', True)]
+                        }
+                    </attribute>
+                </xpath>
                 <xpath expr="//h1//field[@name='name']/.." position="before">
                     <group attrs="{'invisible': [('is_company', '=', True)]}">
                         <field
@@ -23,13 +39,29 @@
                 </xpath>
             </data>
         </field>
-    </record>
+    </record>v
     <record id="view_partner_form_firstname" model="ir.ui.view">
         <field name="name">Add firstname and surnames</field>
         <field name="model">res.partner</field>
         <field name="inherit_id" ref="base.view_partner_form" />
         <field name="arch" type="xml">
             <data>
+                <xpath expr="//field[@id='individual']" position="attributes">
+                    <attribute name="attrs">
+                        {
+                        'readonly': [('is_company', '=', False)],
+                        'required': [('type', '=', 'contact'), ('is_company', '=', True)]
+                        }
+                    </attribute>
+                </xpath>
+                <xpath expr="//field[@id='company']" position="attributes">
+                    <attribute name="attrs">
+                        {
+                        'readonly': [('is_company', '=', False)],
+                        'required': [('type', '=', 'contact'), ('is_company', '=', True)]
+                        }
+                    </attribute>
+                </xpath>
                 <xpath expr="//h1//field[@name='name']/.." position="after">
                     <div class="oe_edit_only">
                         <group attrs="{'invisible': [('is_company', '=', True)]}">
