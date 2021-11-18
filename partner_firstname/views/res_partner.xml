@@ -9,7 +9,8 @@
                     <attribute name="attrs">
                         {
                         'readonly': [('is_company', '=', False)],
-                        'required': [('type', '=', 'contact'), ('is_company', '=', True)]
+                        'required': [('type', '=', 'contact'), ('is_company', '=', False)],
+                        'invisible': [('is_company','=', True)]
                         }
                     </attribute>
                 </xpath>
@@ -17,7 +18,8 @@
                     <attribute name="attrs">
                         {
                         'readonly': [('is_company', '=', False)],
-                        'required': [('type', '=', 'contact'), ('is_company', '=', True)]
+                        'required': [('type', '=', 'contact'), ('is_company', '=', True)],
+                        'invisible': [('is_company','=', False)]
                         }
                     </attribute>
                 </xpath>
@@ -50,7 +52,8 @@
                     <attribute name="attrs">
                         {
                         'readonly': [('is_company', '=', False)],
-                        'required': [('type', '=', 'contact'), ('is_company', '=', True)]
+                        'required': [('type', '=', 'contact'), ('is_company', '=', False)],
+                        'invisible': [('is_company','=', True)]
                         }
                     </attribute>
                 </xpath>
@@ -58,7 +61,8 @@
                     <attribute name="attrs">
                         {
                         'readonly': [('is_company', '=', False)],
-                        'required': [('type', '=', 'contact'), ('is_company', '=', True)]
+                        'required': [('type', '=', 'contact'), ('is_company', '=', True)],
+                        'invisible': [('is_company','=', False)]
                         }
                     </attribute>
                 </xpath>
