@@ -20,7 +20,10 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [animal](animal/) | 15.0.1.0.1 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Manage animals information
-[base_location](base_location/) | 15.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Enhanced zip/npa management system
+[base_country_state_translatable](base_country_state_translatable/) | 15.0.1.0.0 |  | Translate Country States
+[base_location](base_location/) | 15.0.1.0.1 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Enhanced zip/npa management system
+[base_location_geonames_import](base_location_geonames_import/) | 15.0.1.0.0 |  | Import zip entries from Geonames
+[partner_fax](partner_fax/) | 15.0.1.0.0 |  | Add fax number on partner
 
 [//]: # (end addons)
 
