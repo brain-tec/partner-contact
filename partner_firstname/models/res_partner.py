@@ -47,8 +47,8 @@ class ResPartner(models.Model):
                 del vals["name"]
             if "default_name" in context:
                 del context["default_name"]
-        # pylint: disable=W8121
-        return super(ResPartner, self.with_context(context)).create(vals)
+
+        return super(ResPartner, self.with_context(**context)).create(vals)
 
     def copy(self, default=None):
         """Ensure partners are copied right.
