@@ -5,6 +5,10 @@
 
 <!-- /!\ do not modify above this line -->
 
+# BT Customizations
+Open OCA PRs merged
+- (https://github.com/OCA/partner-contact/pull/1210) partner_multi_relation
+
 # partner-contact
 
 TODO: add repo description.
