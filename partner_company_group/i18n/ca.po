@@ -4,17 +4,15 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-03-21 14:13+0000\n"
-"Last-Translator: Dong <dong@freshoo.cn>\n"
+"Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
-"Language: zh_CN\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.10\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. module: partner_company_group
 #: model_terms:ir.ui.view,arch_db:partner_company_group.view_account_invoice_filter
@@ -22,7 +20,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:partner_company_group.view_res_partner_filter
 #: model_terms:ir.ui.view,arch_db:partner_company_group.view_sales_order_filter
 msgid "Company Group"
-msgstr "集团公司"
+msgstr ""
 
 #. module: partner_company_group
 #: model:ir.model.fields,field_description:partner_company_group.field_account_bank_statement_line__company_group_id
@@ -33,7 +31,7 @@ msgstr "集团公司"
 #: model:ir.model.fields,field_description:partner_company_group.field_res_users__company_group_id
 #: model:ir.model.fields,field_description:partner_company_group.field_sale_order__company_group_id
 msgid "Company group"
-msgstr "集团公司"
+msgstr ""
 
 #. module: partner_company_group
 #: model:ir.model.fields,field_description:partner_company_group.field_res_partner__company_group_member_ids
@@ -44,7 +42,7 @@ msgstr ""
 #. module: partner_company_group
 #: model:ir.model,name:partner_company_group.model_res_partner
 msgid "Contact"
-msgstr "联系人"
+msgstr ""
 
 #. module: partner_company_group
 #: model:ir.model.fields,field_description:partner_company_group.field_account_move__display_name
@@ -78,12 +76,9 @@ msgstr ""
 #. module: partner_company_group
 #: model:ir.model,name:partner_company_group.model_crm_lead
 msgid "Lead/Opportunity"
-msgstr "线索/商机"
+msgstr ""
 
 #. module: partner_company_group
 #: model:ir.model,name:partner_company_group.model_sale_order
 msgid "Sales Order"
-msgstr "销售订单"
-
-#~ msgid "Journal Entries"
-#~ msgstr "会计分录"
+msgstr ""
