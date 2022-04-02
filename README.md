@@ -7,9 +7,9 @@
 
 <!-- /!\ do not modify above this line -->
 
-# partner-contact
+# Partner Contact
 
-TODO: add repo description.
+Contact-related odoo addons.
 
 <!-- /!\ do not modify below this line -->
 
@@ -24,7 +24,8 @@ addon | version | maintainers | summary
 [animal](animal/) | 15.0.1.0.1 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Manage animals information
 [base_country_state_translatable](base_country_state_translatable/) | 15.0.1.0.0 |  | Translate Country States
 [base_location](base_location/) | 15.0.1.0.1 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Enhanced zip/npa management system
-[base_location_geonames_import](base_location_geonames_import/) | 15.0.1.0.1 |  | Import zip entries from Geonames
+[base_location_geonames_import](base_location_geonames_import/) | 15.0.1.0.2 |  | Import zip entries from Geonames
+[base_partner_company_group](base_partner_company_group/) | 15.0.1.0.1 |  | Adds the possibility to add a company group to a company
 [base_partner_sequence](base_partner_sequence/) | 15.0.1.0.2 |  | Sets customer's code from a sequence
 [partner_affiliate](partner_affiliate/) | 15.0.1.0.0 |  | Partner Affiliates
 [partner_contact_access_link](partner_contact_access_link/) | 15.0.1.0.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Allow to visit the full contact form from a company
