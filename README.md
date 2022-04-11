@@ -1,13 +1,15 @@
-[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/134/15.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-partner-contact-134)
-[![Build Status](https://travis-ci.com/OCA/partner-contact.svg?branch=15.0)](https://travis-ci.com/OCA/partner-contact)
+
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/partner-contact&target_branch=15.0)
+[![Pre-commit Status](https://github.com/OCA/partner-contact/actions/workflows/pre-commit.yml/badge.svg?branch=15.0)](https://github.com/OCA/partner-contact/actions/workflows/pre-commit.yml?query=branch%3A15.0)
+[![Build Status](https://github.com/OCA/partner-contact/actions/workflows/test.yml/badge.svg?branch=15.0)](https://github.com/OCA/partner-contact/actions/workflows/test.yml?query=branch%3A15.0)
 [![codecov](https://codecov.io/gh/OCA/partner-contact/branch/15.0/graph/badge.svg)](https://codecov.io/gh/OCA/partner-contact)
 [![Translation Status](https://translation.odoo-community.org/widgets/partner-contact-15-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/partner-contact-15-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
 
-# partner-contact
+# Partner Contact
 
-TODO: add repo description.
+Contact-related odoo addons.
 
 <!-- /!\ do not modify below this line -->
 
@@ -22,7 +24,8 @@ addon | version | maintainers | summary
 [animal](animal/) | 15.0.1.0.1 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Manage animals information
 [base_country_state_translatable](base_country_state_translatable/) | 15.0.1.0.0 |  | Translate Country States
 [base_location](base_location/) | 15.0.1.0.1 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Enhanced zip/npa management system
-[base_location_geonames_import](base_location_geonames_import/) | 15.0.1.0.1 |  | Import zip entries from Geonames
+[base_location_geonames_import](base_location_geonames_import/) | 15.0.1.0.2 |  | Import zip entries from Geonames
+[base_partner_company_group](base_partner_company_group/) | 15.0.1.0.1 |  | Adds the possibility to add a company group to a company
 [base_partner_sequence](base_partner_sequence/) | 15.0.1.0.2 |  | Sets customer's code from a sequence
 [partner_affiliate](partner_affiliate/) | 15.0.1.0.0 |  | Partner Affiliates
 [partner_contact_access_link](partner_contact_access_link/) | 15.0.1.0.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Allow to visit the full contact form from a company
@@ -44,12 +47,11 @@ addon | version | maintainers | summary
 
 This repository is licensed under [AGPL-3.0](LICENSE).
 
-However, each module can have a totally different license, as long as they adhere to OCA
+However, each module can have a totally different license, as long as they adhere to Odoo Community Association (OCA)
 policy. Consult each module's `__manifest__.py` file, which contains a `license` key
 that explains its license.
 
 ----
-
 OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit
 organization whose mission is to support the collaborative development of Odoo features
 and promote its widespread use.
