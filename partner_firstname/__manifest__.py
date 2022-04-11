@@ -12,7 +12,7 @@
     "Tecnativa, "
     "LasLabs, "
     "ACSONE SA/NV, "
-    "DynApps NV, "
+    "Braintec-group AG, "
     "Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "maintainer": "Camptocamp, Acsone",
