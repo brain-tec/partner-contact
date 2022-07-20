@@ -31,7 +31,11 @@ addon | version | maintainers | summary
 [partner_contact_access_link](partner_contact_access_link/) | 15.0.1.0.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Allow to visit the full contact form from a company
 [partner_contact_age_range](partner_contact_age_range/) | 15.0.1.0.0 |  | Age Range for Contact's
 [partner_contact_birthdate](partner_contact_birthdate/) | 15.0.1.0.0 |  | Contact's birthdate
+[partner_contact_job_position](partner_contact_job_position/) | 15.0.1.0.1 |  | Categorize job positions for contacts
 [partner_contact_personal_information_page](partner_contact_personal_information_page/) | 15.0.1.0.0 |  | Add a page to contacts form to put personal information
+[partner_deduplicate_acl](partner_deduplicate_acl/) | 15.0.1.0.0 |  | Contact deduplication with fine-grained permission control
+[partner_deduplicate_by_ref](partner_deduplicate_by_ref/) | 15.0.1.0.0 |  | Deduplicate Contacts by reference
+[partner_employee_quantity](partner_employee_quantity/) | 15.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Know how many employees a partner has
 [partner_external_map](partner_external_map/) | 15.0.1.0.0 |  | Add Map and Map Routing buttons on partner form to open GMaps, OSM, Bing and others
 [partner_fax](partner_fax/) | 15.0.1.0.0 |  | Add fax number on partner
 [partner_firstname](partner_firstname/) | 15.0.1.0.0 |  | Split first name and last name for non company partners
@@ -40,8 +44,10 @@ addon | version | maintainers | summary
 [partner_multi_relation](partner_multi_relation/) | 15.0.1.0.0 |  | Partner Relations
 [partner_phone_secondary](partner_phone_secondary/) | 15.0.1.0.0 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Adds a secondary phone number on partners
 [partner_phonecall_schedule](partner_phonecall_schedule/) | 15.0.1.0.0 |  | Track the time and days your partners expect phone calls
+[partner_priority](partner_priority/) | 15.0.1.0.0 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Adds priority to partners.
 [partner_ref_unique](partner_ref_unique/) | 15.0.1.0.0 |  | Add an unique constraint to partner ref field
 [partner_second_lastname](partner_second_lastname/) | 15.0.1.0.0 |  | Have split first and second lastnames
+[partner_vat_unique](partner_vat_unique/) | 15.0.1.0.0 |  | Module to make the VAT number unique for customers and suppliers.
 
 [//]: # (end addons)
 
