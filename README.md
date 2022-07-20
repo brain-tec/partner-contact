@@ -1,6 +1,7 @@
 
 [![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/partner-contact&target_branch=14.0)
-[![Build Status](https://travis-ci.com/OCA/partner-contact.svg?branch=14.0)](https://travis-ci.com/OCA/partner-contact)
+[![Pre-commit Status](https://github.com/OCA/partner-contact/actions/workflows/pre-commit.yml/badge.svg?branch=14.0)](https://github.com/OCA/partner-contact/actions/workflows/pre-commit.yml?query=branch%3A14.0)
+[![Build Status](https://github.com/OCA/partner-contact/actions/workflows/test.yml/badge.svg?branch=14.0)](https://github.com/OCA/partner-contact/actions/workflows/test.yml?query=branch%3A14.0)
 [![codecov](https://codecov.io/gh/OCA/partner-contact/branch/14.0/graph/badge.svg)](https://codecov.io/gh/OCA/partner-contact)
 [![Translation Status](https://translation.odoo-community.org/widgets/partner-contact-14-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/partner-contact-14-0/?utm_source=widget)
 
@@ -47,6 +48,7 @@ addon | version | maintainers | summary
 [partner_contact_lang](partner_contact_lang/) | 14.0.1.0.0 |  | Manage language in contacts
 [partner_contact_nationality](partner_contact_nationality/) | 14.0.1.0.1 |  | Add nationality field to contacts
 [partner_contact_personal_information_page](partner_contact_personal_information_page/) | 14.0.1.0.0 |  | Add a page to contacts form to put personal information
+[partner_data_vies_populator](partner_data_vies_populator/) | 14.0.1.0.1 |  | Using VIES webservice, name and address information will be fetched and added to the partner.
 [partner_deduplicate_acl](partner_deduplicate_acl/) | 14.0.1.0.0 |  | Contact deduplication with fine-grained permission control
 [partner_deduplicate_by_ref](partner_deduplicate_by_ref/) | 14.0.1.0.0 |  | Deduplicate Contacts by reference
 [partner_deduplicate_by_website](partner_deduplicate_by_website/) | 14.0.1.0.0 |  | Deduplicate Contacts by Website
