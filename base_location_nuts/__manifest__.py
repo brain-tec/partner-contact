@@ -6,7 +6,7 @@
 {
     "name": "NUTS Regions",
     "category": "Localisation/Europe",
-    "version": "13.0.1.0.0",
+    "version": "13.0.1.0.1",
     "depends": ["contacts"],
     "data": [
         "views/res_country_view.xml",
@@ -17,7 +17,7 @@
     ],
     "images": ["images/new_fields.png"],
     "author": "Tecnativa, " "Agile Business Group, " "Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/partner-contact/",
+    "website": "https://github.com/OCA/partner-contact",
     "license": "AGPL-3",
     "installable": True,
 }
