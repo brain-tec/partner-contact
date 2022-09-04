@@ -25,10 +25,12 @@ addon | version | maintainers | summary
 [base_country_state_translatable](base_country_state_translatable/) | 15.0.1.0.0 |  | Translate Country States
 [base_location](base_location/) | 15.0.1.0.1 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Enhanced zip/npa management system
 [base_location_geonames_import](base_location_geonames_import/) | 15.0.1.0.2 |  | Import zip entries from Geonames
+[base_location_nuts](base_location_nuts/) | 15.0.1.0.0 |  | NUTS Regions
 [base_partner_company_group](base_partner_company_group/) | 15.0.1.0.1 |  | Adds the possibility to add a company group to a company
 [base_partner_sequence](base_partner_sequence/) | 15.0.1.0.2 |  | Sets customer's code from a sequence
 [partner_affiliate](partner_affiliate/) | 15.0.1.0.0 |  | Partner Affiliates
 [partner_company_group](partner_company_group/) | 15.0.1.0.0 |  | Adds the possibility to add a company group to a company
+[partner_company_type](partner_company_type/) | 15.0.1.0.1 |  | Adds a company type to partner that are companies
 [partner_contact_access_link](partner_contact_access_link/) | 15.0.1.0.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Allow to visit the full contact form from a company
 [partner_contact_address_default](partner_contact_address_default/) | 15.0.1.0.0 |  | Set a default delivery and invoice address for contacts
 [partner_contact_age_range](partner_contact_age_range/) | 15.0.1.0.0 |  | Age Range for Contact's
