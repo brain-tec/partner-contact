@@ -7,6 +7,12 @@
 
 <!-- /!\ do not modify above this line -->
 
+# BT Customizations
+Open OCA PRs merged
+- (https://github.com/OCA/partner-contact/pull/1339) partner_stage
+- (https://github.com/OCA/partner-contact/pull/1340) partner_tier_validation
+
+
 # Partner Contact
 
 Contact-related odoo addons.
