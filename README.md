@@ -28,6 +28,7 @@ addon | version | maintainers | summary
 [base_location_nuts](base_location_nuts/) | 15.0.1.0.0 |  | NUTS Regions
 [base_partner_company_group](base_partner_company_group/) | 15.0.1.1.0 |  | Adds the possibility to add a company group to a company
 [base_partner_sequence](base_partner_sequence/) | 15.0.1.0.2 |  | Sets customer's code from a sequence
+[crm_partner_company_group](crm_partner_company_group/) | 15.0.1.0.0 |  | Adds the possibility to add a company group to a company
 [partner_address_street3](partner_address_street3/) | 15.0.1.0.0 |  | Add a third address line on partners
 [partner_affiliate](partner_affiliate/) | 15.0.1.0.0 |  | Partner Affiliates
 [partner_company_group](partner_company_group/) | 15.0.1.0.0 |  | Adds the possibility to add a company group to a company
@@ -56,6 +57,7 @@ addon | version | maintainers | summary
 [partner_ref_unique](partner_ref_unique/) | 15.0.1.0.0 |  | Add an unique constraint to partner ref field
 [partner_second_lastname](partner_second_lastname/) | 15.0.1.0.0 |  | Have split first and second lastnames
 [partner_vat_unique](partner_vat_unique/) | 15.0.1.0.0 |  | Module to make the VAT number unique for customers and suppliers.
+[sale_partner_company_group](sale_partner_company_group/) | 15.0.1.0.0 |  | Adds the possibility to add a company group to a company
 
 [//]: # (end addons)
 

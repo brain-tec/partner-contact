@@ -15,6 +15,7 @@ setuptools.setup(
         'odoo-addon-base_location_nuts>=15.0dev,<15.1dev',
         'odoo-addon-base_partner_company_group>=15.0dev,<15.1dev',
         'odoo-addon-base_partner_sequence>=15.0dev,<15.1dev',
+        'odoo-addon-crm_partner_company_group>=15.0dev,<15.1dev',
         'odoo-addon-partner_address_street3>=15.0dev,<15.1dev',
         'odoo-addon-partner_affiliate>=15.0dev,<15.1dev',
         'odoo-addon-partner_company_group>=15.0dev,<15.1dev',
@@ -43,6 +44,7 @@ setuptools.setup(
         'odoo-addon-partner_ref_unique>=15.0dev,<15.1dev',
         'odoo-addon-partner_second_lastname>=15.0dev,<15.1dev',
         'odoo-addon-partner_vat_unique>=15.0dev,<15.1dev',
+        'odoo-addon-sale_partner_company_group>=15.0dev,<15.1dev',
     ],
     classifiers=[
         'Programming Language :: Python',
