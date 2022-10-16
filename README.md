@@ -41,13 +41,14 @@ addon | version | maintainers | summary
 [partner_contact_gender](partner_contact_gender/) | 15.0.1.0.0 |  | Add gender field to contacts
 [partner_contact_job_position](partner_contact_job_position/) | 15.0.1.0.1 |  | Categorize job positions for contacts
 [partner_contact_lang](partner_contact_lang/) | 15.0.1.0.0 |  | Manage language in contacts
+[partner_contact_nationality](partner_contact_nationality/) | 15.0.1.0.0 |  | Add nationality field to contacts
 [partner_contact_personal_information_page](partner_contact_personal_information_page/) | 15.0.1.0.0 |  | Add a page to contacts form to put personal information
 [partner_deduplicate_acl](partner_deduplicate_acl/) | 15.0.1.0.0 |  | Contact deduplication with fine-grained permission control
 [partner_deduplicate_by_ref](partner_deduplicate_by_ref/) | 15.0.1.0.0 |  | Deduplicate Contacts by reference
 [partner_employee_quantity](partner_employee_quantity/) | 15.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Know how many employees a partner has
 [partner_external_map](partner_external_map/) | 15.0.1.0.0 |  | Add Map and Map Routing buttons on partner form to open GMaps, OSM, Bing and others
 [partner_fax](partner_fax/) | 15.0.1.0.0 |  | Add fax number on partner
-[partner_firstname](partner_firstname/) | 15.0.1.0.0 |  | Split first name and last name for non company partners
+[partner_firstname](partner_firstname/) | 15.0.1.1.0 |  | Split first name and last name for non company partners
 [partner_industry_secondary](partner_industry_secondary/) | 15.0.1.0.0 |  | Add secondary partner industries
 [partner_manual_rank](partner_manual_rank/) | 15.0.1.0.0 | [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) [![frahikLV](https://github.com/frahikLV.png?size=30px)](https://github.com/frahikLV) | Be able to manually flag partners as customer or supplier.
 [partner_multi_relation](partner_multi_relation/) | 15.0.1.0.0 |  | Partner Relations
