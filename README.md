@@ -22,7 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_partner_company_group](account_partner_company_group/) | 15.0.1.0.0 |  | Adds the possibility to add a company group to a company
-[animal](animal/) | 15.0.1.0.1 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Manage animals information
+[animal](animal/) | 15.0.1.1.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Manage animals information
 [base_country_state_translatable](base_country_state_translatable/) | 15.0.1.0.0 |  | Translate Country States
 [base_location](base_location/) | 15.0.1.0.1 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Enhanced zip/npa management system
 [base_location_geonames_import](base_location_geonames_import/) | 15.0.1.0.2 |  | Import zip entries from Geonames
@@ -60,6 +60,7 @@ addon | version | maintainers | summary
 [partner_ref_unique](partner_ref_unique/) | 15.0.1.0.0 |  | Add an unique constraint to partner ref field
 [partner_second_lastname](partner_second_lastname/) | 15.0.1.0.0 |  | Have split first and second lastnames
 [partner_vat_unique](partner_vat_unique/) | 15.0.1.0.0 |  | Module to make the VAT number unique for customers and suppliers.
+[portal_partner_data_no_edit](portal_partner_data_no_edit/) | 15.0.1.0.0 |  | Portal Partner Block Data Edit
 [sale_partner_company_group](sale_partner_company_group/) | 15.0.1.0.0 |  | Adds the possibility to add a company group to a company
 
 [//]: # (end addons)
