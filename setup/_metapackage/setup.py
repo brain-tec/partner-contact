@@ -30,6 +30,7 @@ setuptools.setup(
         'odoo-addon-partner_contact_lang>=15.0dev,<15.1dev',
         'odoo-addon-partner_contact_nationality>=15.0dev,<15.1dev',
         'odoo-addon-partner_contact_personal_information_page>=15.0dev,<15.1dev',
+        'odoo-addon-partner_contact_role>=15.0dev,<15.1dev',
         'odoo-addon-partner_deduplicate_acl>=15.0dev,<15.1dev',
         'odoo-addon-partner_deduplicate_by_ref>=15.0dev,<15.1dev',
         'odoo-addon-partner_employee_quantity>=15.0dev,<15.1dev',
@@ -48,6 +49,7 @@ setuptools.setup(
         'odoo-addon-partner_second_lastname>=15.0dev,<15.1dev',
         'odoo-addon-partner_vat_unique>=15.0dev,<15.1dev',
         'odoo-addon-portal_partner_data_no_edit>=15.0dev,<15.1dev',
+        'odoo-addon-res_partner_journal_items_link>=15.0dev,<15.1dev',
         'odoo-addon-sale_partner_company_group>=15.0dev,<15.1dev',
     ],
     classifiers=[
