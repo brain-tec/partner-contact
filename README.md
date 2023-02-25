@@ -46,6 +46,7 @@ addon | version | maintainers | summary
 [partner_contact_nationality](partner_contact_nationality/) | 15.0.1.0.0 |  | Add nationality field to contacts
 [partner_contact_personal_information_page](partner_contact_personal_information_page/) | 15.0.1.0.0 |  | Add a page to contacts form to put personal information
 [partner_contact_role](partner_contact_role/) | 15.0.1.0.0 |  | Add roles to partners.
+[partner_country_lang](partner_country_lang/) | 15.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Partner language according country
 [partner_deduplicate_acl](partner_deduplicate_acl/) | 15.0.1.2.0 |  | Contact deduplication with fine-grained permission control
 [partner_deduplicate_by_ref](partner_deduplicate_by_ref/) | 15.0.1.0.0 |  | Deduplicate Contacts by reference
 [partner_deduplicate_filter](partner_deduplicate_filter/) | 15.0.1.0.0 |  | Exclude records from the deduplication
@@ -61,6 +62,7 @@ addon | version | maintainers | summary
 [partner_phone_secondary](partner_phone_secondary/) | 15.0.1.0.0 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Adds a secondary phone number on partners
 [partner_phonecall_schedule](partner_phonecall_schedule/) | 15.0.1.0.0 |  | Track the time and days your partners expect phone calls
 [partner_pricelist_search](partner_pricelist_search/) | 15.0.1.0.0 |  | Partner pricelist search
+[partner_pricelist_tracking](partner_pricelist_tracking/) | 15.0.1.0.0 |  | Track partner pricelist changes
 [partner_priority](partner_priority/) | 15.0.1.0.0 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Adds priority to partners.
 [partner_ref_unique](partner_ref_unique/) | 15.0.1.0.0 |  | Add an unique constraint to partner ref field
 [partner_second_lastname](partner_second_lastname/) | 15.0.1.0.0 |  | Have split first and second lastnames
