@@ -33,6 +33,7 @@ addon | version | maintainers | summary
 [partner_address_street3](partner_address_street3/) | 15.0.1.0.0 |  | Add a third address line on partners
 [partner_affiliate](partner_affiliate/) | 15.0.1.0.0 |  | Partner Affiliates
 [partner_bank_code](partner_bank_code/) | 15.0.1.0.0 |  | Add fields information in banks
+[partner_capital](partner_capital/) | 15.0.0.1.0 |  | Partners Capital
 [partner_company_default](partner_company_default/) | 15.0.1.0.0 |  | Partner Company Default
 [partner_company_group](partner_company_group/) | 15.0.2.0.0 |  | Adds the possibility to add a company group to a company
 [partner_company_type](partner_company_type/) | 15.0.1.0.1 |  | Adds a company type to partner that are companies
@@ -52,6 +53,7 @@ addon | version | maintainers | summary
 [partner_deduplicate_by_ref](partner_deduplicate_by_ref/) | 15.0.1.0.0 |  | Deduplicate Contacts by reference
 [partner_deduplicate_by_website](partner_deduplicate_by_website/) | 15.0.1.0.0 |  | Deduplicate Contacts by Website
 [partner_deduplicate_filter](partner_deduplicate_filter/) | 15.0.1.0.0 |  | Exclude records from the deduplication
+[partner_disable_gravatar](partner_disable_gravatar/) | 15.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Disable automatic connection to gravatar.com
 [partner_email_check](partner_email_check/) | 15.0.1.0.1 |  | Validate email address field
 [partner_employee_quantity](partner_employee_quantity/) | 15.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Know how many employees a partner has
 [partner_exception](partner_exception/) | 15.0.1.0.0 |  | Custom exceptions on partner contact
@@ -72,6 +74,7 @@ addon | version | maintainers | summary
 [partner_priority](partner_priority/) | 15.0.1.0.0 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Adds priority to partners.
 [partner_ref_unique](partner_ref_unique/) | 15.0.1.0.0 |  | Add an unique constraint to partner ref field
 [partner_second_lastname](partner_second_lastname/) | 15.0.1.0.0 |  | Have split first and second lastnames
+[partner_stage](partner_stage/) | 15.0.1.0.0 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Add lifecycle Stages to Partners
 [partner_supplierinfo](partner_supplierinfo/) | 15.0.1.0.0 |  | Management of partner reference equivalences
 [partner_vat_unique](partner_vat_unique/) | 15.0.1.0.1 |  | Module to make the VAT number unique for customers and suppliers.
 [portal_partner_data_no_edit](portal_partner_data_no_edit/) | 15.0.1.0.0 |  | Portal Partner Block Data Edit
