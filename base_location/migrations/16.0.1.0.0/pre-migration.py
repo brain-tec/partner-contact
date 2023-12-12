@@ -16,7 +16,7 @@ def migrate(env, version):
     openupgrade.remove_tables_fks(env.cr, ['res_better_zip'])
 
     # From V12 to V13
-    env.execute(
+    env.cr.execute(
         """UPDATE res_partner rp
         SET city_id = rcz.city_id
         FROM res_city_zip rcz
