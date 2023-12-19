@@ -10,6 +10,10 @@ def migrate(env, version):
     column_name = openupgrade.get_legacy_name('better_zip_id')
     openupgrade.logged_query(
         env.cr,
+        "ALTER TABLE res_better_zip ADD city_id INTEGER"
+    )
+    openupgrade.logged_query(
+        env.cr,
         "ALTER TABLE res_city_zip ADD %s INTEGER", (AsIs(column_name), ),
     )
     # Create a city for ZIPs without it
@@ -20,7 +24,7 @@ def migrate(env, version):
             create_uid, create_date, write_uid, write_date
         )
         SELECT
-            city, state_id, country_id,
+            jsonb_build_object('en_US', rbz.city), state_id, country_id,
             MIN(create_uid), MIN(create_date), MIN(write_uid), MIN(write_date)
         FROM res_better_zip rbz
         WHERE city_id IS NULL
@@ -35,7 +39,7 @@ def migrate(env, version):
         UPDATE res_better_zip rbz
         SET city_id = rc.id
         FROM res_city rc
-        WHERE rc.name = rbz.city
+        WHERE CAST(rc.name AS text) = rbz.city
             AND rc.state_id IS NOT DISTINCT FROM rbz.state_id
             AND rc.country_id = rbz.country_id
             AND rbz.city_id IS NULL""",
@@ -54,7 +58,7 @@ def migrate(env, version):
         (AsIs(column_name), ),
     )
     # Recompute display name for entries inserted by SQL
-    env['res.city.zip'].search([])._compute_new_display_name()
+    # env['res.city.zip'].search([])._compute_new_display_name()
     # Link res.partner with corresponding new entries
     openupgrade.logged_query(
         env.cr, """
