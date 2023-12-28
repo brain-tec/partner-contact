@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* partner_subject_to_vat
+# 	* sale_customer_rank
 #
 msgid ""
 msgstr ""
@@ -16,13 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.17\n"
 
-#. module: partner_subject_to_vat
-#: model:ir.model,name:partner_subject_to_vat.model_res_partner
-msgid "Contact"
-msgstr "Contatto"
-
-#. module: partner_subject_to_vat
-#: model:ir.model.fields,field_description:partner_subject_to_vat.field_res_partner__is_subject_to_vat
-#: model:ir.model.fields,field_description:partner_subject_to_vat.field_res_users__is_subject_to_vat
-msgid "Is subject to VAT"
-msgstr "Soggetto a IVA"
+#. module: sale_customer_rank
+#: model:ir.model,name:sale_customer_rank.model_sale_order
+msgid "Sales Order"
+msgstr "Ordine di vendita"
