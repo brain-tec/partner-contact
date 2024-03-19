@@ -44,7 +44,7 @@ addon | version | maintainers | summary
 [partner_company_group](partner_company_group/) | 16.0.1.0.0 | [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) | Adds the possibility to add a company group to a company
 [partner_company_type](partner_company_type/) | 16.0.1.0.0 |  | Adds a company type to partner that are companies
 [partner_contact_access_link](partner_contact_access_link/) | 16.0.1.1.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Allow to visit the full contact form from a company
-[partner_contact_address_default](partner_contact_address_default/) | 16.0.1.0.0 |  | Set a default delivery and invoice address for contacts
+[partner_contact_address_default](partner_contact_address_default/) | 16.0.1.1.0 |  | Set a default delivery address, invoice address and contact for contacts
 [partner_contact_age_range](partner_contact_age_range/) | 16.0.1.0.1 |  | Age Range for Contact's
 [partner_contact_birthdate](partner_contact_birthdate/) | 16.0.1.0.0 |  | Contact's birthdate
 [partner_contact_department](partner_contact_department/) | 16.0.1.0.2 |  | Assign contacts to departments
@@ -69,7 +69,7 @@ addon | version | maintainers | summary
 [partner_identification_eori](partner_identification_eori/) | 16.0.1.0.0 |  | This addon extends "Partner Identification Numbers" to provide a number category for EORI Number
 [partner_identification_gln](partner_identification_gln/) | 16.0.1.0.1 |  | This addon extends "Partner Identification Numbers" to provide a number category for GLN registration
 [partner_industry_secondary](partner_industry_secondary/) | 16.0.1.0.1 |  | Add secondary partner industries
-[partner_interest_group](partner_interest_group/) | 16.0.1.1.0 | [![victor-champonnois](https://github.com/victor-champonnois.png?size=30px)](https://github.com/victor-champonnois) | Add Interest Group to Partners
+[partner_interest_group](partner_interest_group/) | 16.0.1.2.0 | [![victor-champonnois](https://github.com/victor-champonnois.png?size=30px)](https://github.com/victor-champonnois) | Add Interest Group to Partners
 [partner_label](partner_label/) | 16.0.1.0.0 |  | Print partner labels
 [partner_lastname_uppercase](partner_lastname_uppercase/) | 16.0.1.0.1 |  | Uppercases the the last names of partners
 [partner_manual_rank](partner_manual_rank/) | 16.0.1.1.2 | [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) [![frahikLV](https://github.com/frahikLV.png?size=30px)](https://github.com/frahikLV) | Be able to manually flag partners as customer or supplier.
