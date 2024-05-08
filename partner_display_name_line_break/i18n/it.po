@@ -16,12 +16,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.17\n"
 
-#. module: partner_address_two_lines
-#: model:ir.model,name:partner_address_two_lines.model_res_partner
+#. module: partner_display_name_line_break
+#: model:ir.model,name:partner_display_name_line_break.model_res_partner
 msgid "Contact"
 msgstr "Contatto"
 
-#. module: partner_address_two_lines
-#: model:ir.model,name:partner_address_two_lines.model_ir_actions_report
+#. module: partner_display_name_line_break
+#: model:ir.model,name:partner_display_name_line_break.model_ir_actions_report
 msgid "Report Action"
 msgstr "Azione resoconto"
