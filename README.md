@@ -36,7 +36,7 @@ addon | version | maintainers | summary
 [partner_bank_acc_type_constraint](partner_bank_acc_type_constraint/) | 16.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Adds constraint on bank account type
 [partner_bank_code](partner_bank_code/) | 16.0.1.0.1 |  | Add fields information in banks
 [partner_capital](partner_capital/) | 16.0.0.1.1 | [![EmilioPascual](https://github.com/EmilioPascual.png?size=30px)](https://github.com/EmilioPascual) | Partners Capital
-[partner_category_security](partner_category_security/) | 16.0.2.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Partner category security
+[partner_category_security](partner_category_security/) | 16.0.2.0.1 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Partner category security
 [partner_category_security_crm](partner_category_security_crm/) | 16.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Partner category security (crm extension)
 [partner_category_type](partner_category_type/) | 16.0.1.0.0 | [![JordiMForgeFlow](https://github.com/JordiMForgeFlow.png?size=30px)](https://github.com/JordiMForgeFlow) | Add a selection field 'Type' to classify Contact Tags.
 [partner_company_default](partner_company_default/) | 16.0.1.1.1 |  | Partner Company Default
@@ -54,7 +54,7 @@ addon | version | maintainers | summary
 [partner_contact_personal_information_page](partner_contact_personal_information_page/) | 16.0.1.0.1 |  | Add a page to contacts form to put personal information
 [partner_contact_type_end_user](partner_contact_type_end_user/) | 16.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Adds a new contact type 'End User'
 [partner_country_state_required](partner_country_state_required/) | 16.0.1.0.0 |  | Partner Country State Required
-[partner_deduplicate_acl](partner_deduplicate_acl/) | 16.0.1.0.0 |  | Contact deduplication with fine-grained permission control
+[partner_deduplicate_acl](partner_deduplicate_acl/) | 16.0.1.0.1 |  | Contact deduplication with fine-grained permission control
 [partner_deduplicate_by_ref](partner_deduplicate_by_ref/) | 16.0.1.0.0 |  | Deduplicate Contacts by reference
 [partner_deduplicate_filter](partner_deduplicate_filter/) | 16.0.1.0.0 |  | Exclude records from the deduplication
 [partner_disable_gravatar](partner_disable_gravatar/) | 16.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Disable automatic connection to gravatar.com
