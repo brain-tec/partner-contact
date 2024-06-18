@@ -60,6 +60,7 @@ addon | version | maintainers | summary
 [partner_deduplicate_filter](partner_deduplicate_filter/) | 16.0.1.0.0 |  | Exclude records from the deduplication
 [partner_disable_gravatar](partner_disable_gravatar/) | 16.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Disable automatic connection to gravatar.com
 [partner_display_name_line_break](partner_display_name_line_break/) | 16.0.1.1.0 |  | Split the company and the partner name on two different lines
+[partner_duns](partner_duns/) | 16.0.1.0.0 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Set DUNS (Data Universal Numbering System) on partners
 [partner_email_check](partner_email_check/) | 16.0.1.0.0 |  | Validate email address field
 [partner_email_duplicate_warn](partner_email_duplicate_warn/) | 16.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Warning banner on partner form if another partner has the same email
 [partner_employee_quantity](partner_employee_quantity/) | 16.0.1.0.1 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) [![edlopen](https://github.com/edlopen.png?size=30px)](https://github.com/edlopen) | Know how many employees a partner has
@@ -77,6 +78,7 @@ addon | version | maintainers | summary
 [partner_middlename](partner_middlename/) | 16.0.1.0.0 |  | Have split Middle
 [partner_mobile_duplicate_warn](partner_mobile_duplicate_warn/) | 16.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Warning banner on partner form if another partner has the same mobile
 [partner_multi_relation](partner_multi_relation/) | 16.0.1.0.1 |  | Partner Relations
+[partner_phone_extension](partner_phone_extension/) | 16.0.1.0.0 |  | Partner Phone Number Extension
 [partner_phonecall_schedule](partner_phonecall_schedule/) | 16.0.1.0.1 |  | Track the time and days your partners expect phone calls
 [partner_pricelist_search](partner_pricelist_search/) | 16.0.1.0.0 |  | Partner pricelist search
 [partner_purchase_manager](partner_purchase_manager/) | 16.0.1.0.1 | [![EmilioPascual](https://github.com/EmilioPascual.png?size=30px)](https://github.com/EmilioPascual) | Add purchase manager field in partner
