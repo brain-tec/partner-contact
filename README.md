@@ -36,6 +36,7 @@ addon | version | maintainers | summary
 [partner_company_type](partner_company_type/) | 17.0.1.0.0 |  | Adds a company type to partner that are companies
 [partner_contact_access_link](partner_contact_access_link/) | 17.0.1.0.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Allow to visit the full contact form from a company
 [partner_contact_birthdate](partner_contact_birthdate/) | 17.0.1.0.0 | [![Daemo00](https://github.com/Daemo00.png?size=30px)](https://github.com/Daemo00) | Contact's birthdate
+[partner_contact_birthplace](partner_contact_birthplace/) | 17.0.1.0.0 |  | This module allows to define a birthplace for partners.
 [partner_contact_department](partner_contact_department/) | 17.0.1.0.0 |  | Assign contacts to departments
 [partner_contact_gender](partner_contact_gender/) | 17.0.1.0.0 |  | Add gender field to contacts
 [partner_contact_job_position](partner_contact_job_position/) | 17.0.1.0.0 |  | Categorize job positions for contacts
@@ -61,6 +62,7 @@ addon | version | maintainers | summary
 [partner_second_lastname](partner_second_lastname/) | 17.0.1.0.1 |  | Have split first and second lastnames
 [partner_stage](partner_stage/) | 17.0.1.0.0 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Add lifecycle Stages to Partners
 [partner_stage_only_confirmed](partner_stage_only_confirmed/) | 17.0.1.0.0 |  | Adds filters on form views to display only confirmed partners
+[partner_tz](partner_tz/) | 17.0.1.0.0 |  | Remove partner timezone default value and display on form
 [partner_vat_unique](partner_vat_unique/) | 17.0.1.0.0 |  | Module to make the VAT number unique for customers and suppliers.
 [sale_partner_company_group](sale_partner_company_group/) | 17.0.1.0.0 |  | Adds the possibility to add a company group to a company
 
