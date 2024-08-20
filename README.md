@@ -41,7 +41,7 @@ addon | version | maintainers | summary
 [partner_category_security](partner_category_security/) | 16.0.2.0.1 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Partner category security
 [partner_category_security_crm](partner_category_security_crm/) | 16.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Partner category security (crm extension)
 [partner_category_type](partner_category_type/) | 16.0.1.0.0 | [![JordiMForgeFlow](https://github.com/JordiMForgeFlow.png?size=30px)](https://github.com/JordiMForgeFlow) | Add a selection field 'Type' to classify Contact Tags.
-[partner_company_default](partner_company_default/) | 16.0.1.1.1 |  | Partner Company Default
+[partner_company_default](partner_company_default/) | 16.0.1.1.2 |  | Partner Company Default
 [partner_company_group](partner_company_group/) | 16.0.1.0.0 | [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) | Adds the possibility to add a company group to a company
 [partner_company_type](partner_company_type/) | 16.0.1.0.0 |  | Adds a company type to partner that are companies
 [partner_contact_access_link](partner_contact_access_link/) | 16.0.1.1.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Allow to visit the full contact form from a company
@@ -89,6 +89,7 @@ addon | version | maintainers | summary
 [partner_purchase_manager](partner_purchase_manager/) | 16.0.1.0.1 | [![EmilioPascual](https://github.com/EmilioPascual.png?size=30px)](https://github.com/EmilioPascual) | Add purchase manager field in partner
 [partner_ref_unique](partner_ref_unique/) | 16.0.1.0.0 |  | Add an unique constraint to partner ref field
 [partner_second_lastname](partner_second_lastname/) | 16.0.1.0.2 |  | Have split first and second lastnames
+[partner_shipping_policy](partner_shipping_policy/) | 16.0.1.0.0 |  | Define shipping policy at partners level.
 [partner_stage](partner_stage/) | 16.0.1.0.1 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Add lifecycle Stages to Partners
 [partner_subject_to_vat](partner_subject_to_vat/) | 16.0.1.0.0 | [![victor-champonnois](https://github.com/victor-champonnois.png?size=30px)](https://github.com/victor-champonnois) | Record whether a company is subject to VAT.
 [partner_tier_validation](partner_tier_validation/) | 16.0.1.0.1 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Support a tier validation process for Contacts
@@ -96,6 +97,7 @@ addon | version | maintainers | summary
 [partner_vat_unique](partner_vat_unique/) | 16.0.1.0.0 |  | Module to make the VAT number unique for customers and suppliers.
 [purchase_supplier_rank](purchase_supplier_rank/) | 16.0.1.0.1 |  | Update Supplier Rank when creating a Purchase Order
 [sale_customer_rank](sale_customer_rank/) | 16.0.1.0.0 |  | Update Customer Rank when creating a Sale Order
+[sale_partner_address_restrict](sale_partner_address_restrict/) | 16.0.1.0.0 |  | Restrict addresses domain in the sales order form taking into account the partner selected
 [sale_partner_company_group](sale_partner_company_group/) | 16.0.1.0.0 |  | Adds the possibility to add a company group to a company
 
 [//]: # (end addons)
