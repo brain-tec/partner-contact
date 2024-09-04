@@ -9,6 +9,7 @@ setuptools.setup(
     version=version,
     install_requires=[
         'odoo-addon-account_partner_company_group>=16.0dev,<16.1dev',
+        'odoo-addon-animal>=16.0dev,<16.1dev',
         'odoo-addon-base_country_state_translatable>=16.0dev,<16.1dev',
         'odoo-addon-base_location>=16.0dev,<16.1dev',
         'odoo-addon-base_location_geonames_import>=16.0dev,<16.1dev',
@@ -78,6 +79,7 @@ setuptools.setup(
         'odoo-addon-partner_second_lastname>=16.0dev,<16.1dev',
         'odoo-addon-partner_shipping_policy>=16.0dev,<16.1dev',
         'odoo-addon-partner_stage>=16.0dev,<16.1dev',
+        'odoo-addon-partner_store>=16.0dev,<16.1dev',
         'odoo-addon-partner_subject_to_vat>=16.0dev,<16.1dev',
         'odoo-addon-partner_tier_validation>=16.0dev,<16.1dev',
         'odoo-addon-partner_tz>=16.0dev,<16.1dev',
