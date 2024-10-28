@@ -25,6 +25,7 @@ addon | version | maintainers | summary
 [base_partner_sequence](base_partner_sequence/) | 18.0.1.0.0 |  | Sets customer's code from a sequence
 [partner_firstname](partner_firstname/) | 18.0.1.0.0 |  | Split first name and last name for non company partners
 [partner_identification](partner_identification/) | 18.0.1.0.0 |  | Partner Identification Numbers
+[partner_identification_unique_by_category](partner_identification_unique_by_category/) | 18.0.1.0.0 |  | Partner Identification Numbers Unique By Category
 [partner_pricelist_search](partner_pricelist_search/) | 18.0.1.0.0 |  | Partner pricelist search
 [partner_ref_unique](partner_ref_unique/) | 18.0.1.0.0 |  | Add an unique constraint to partner ref field
 [partner_tz](partner_tz/) | 18.0.1.0.0 |  | Remove partner timezone default value and display on form
