@@ -6,6 +6,9 @@
 [![Translation Status](https://translation.odoo-community.org/widgets/partner-contact-18-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/partner-contact-18-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
+# BT Customizations
+Open OCA PRs merged:
+- ([OCA#1874](https://github.com/OCA/partner-contact/pull/1874]) sale_partner_company_group
 
 # partner-contact
 
