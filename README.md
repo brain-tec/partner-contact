@@ -8,7 +8,8 @@
 <!-- /!\ do not modify above this line -->
 # BT Customizations
 Open OCA PRs merged:
-- ([OCA#1874](https://github.com/OCA/partner-contact/pull/1874]) sale_partner_company_group
+- [OCA#1874](https://github.com/OCA/partner-contact/pull/1874]) sale_partner_company_group
+- [OCA#1888](https://github.com/OCA/partner-contact/pull/1888) partner_contact_role
 
 # partner-contact
 
