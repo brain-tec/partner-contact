@@ -21,6 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[account_partner_company_group](account_partner_company_group/) | 18.0.1.0.0 |  | Adds the possibility to add a company group to a company
 [base_location](base_location/) | 18.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Enhanced zip/npa management system
 [base_partner_company_group](base_partner_company_group/) | 18.0.1.0.0 |  | Adds the possibility to add a company group to a company
 [base_partner_sequence](base_partner_sequence/) | 18.0.1.0.0 |  | Sets customer's code from a sequence
@@ -30,6 +31,7 @@ addon | version | maintainers | summary
 [partner_pricelist_search](partner_pricelist_search/) | 18.0.1.0.0 |  | Partner pricelist search
 [partner_ref_unique](partner_ref_unique/) | 18.0.1.0.0 |  | Add an unique constraint to partner ref field
 [partner_tz](partner_tz/) | 18.0.1.0.0 |  | Remove partner timezone default value and display on form
+[sale_partner_company_group](sale_partner_company_group/) | 18.0.1.0.0 |  | Adds the possibility to add a company group to a company
 
 [//]: # (end addons)
 
