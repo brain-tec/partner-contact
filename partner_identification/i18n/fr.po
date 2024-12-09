@@ -297,6 +297,11 @@ msgid "New"
 msgstr "Nouveau"
 
 #. module: partner_identification
+#: model:ir.model.fields,field_description:partner_identification.field_res_partner_id_number__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr ""
+
+#. module: partner_identification
 #: model:ir.model.fields,field_description:partner_identification.field_res_partner_id_number__activity_date_deadline
 msgid "Next Activity Deadline"
 msgstr ""
@@ -469,6 +474,16 @@ msgstr "Valide jusqu'à"
 #: model:ir.model.fields,help:partner_identification.field_res_partner_id_number__valid_from
 msgid "Validation period stating date."
 msgstr "Date de début de la période de validité de l'identifiant."
+
+#. module: partner_identification
+#: model:ir.model.fields,field_description:partner_identification.field_res_partner_id_number__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: partner_identification
+#: model:ir.model.fields,help:partner_identification.field_res_partner_id_number__website_message_ids
+msgid "Website communication history"
+msgstr ""
 
 #. module: partner_identification
 #. odoo-python
