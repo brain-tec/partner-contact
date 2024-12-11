@@ -32,6 +32,7 @@ addon | version | maintainers | summary
 [partner_identification_unique_by_category](partner_identification_unique_by_category/) | 18.0.1.0.0 |  | Partner Identification Numbers Unique By Category
 [partner_pricelist_search](partner_pricelist_search/) | 18.0.1.0.0 |  | Partner pricelist search
 [partner_ref_unique](partner_ref_unique/) | 18.0.1.0.0 |  | Add an unique constraint to partner ref field
+[partner_title_order](partner_title_order/) | 18.0.1.0.0 |  | Makes partner title sortable by sequence
 [partner_tz](partner_tz/) | 18.0.1.0.0 |  | Remove partner timezone default value and display on form
 [sale_partner_company_group](sale_partner_company_group/) | 18.0.1.0.0 |  | Adds the possibility to add a company group to a company
 
