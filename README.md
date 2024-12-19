@@ -31,6 +31,7 @@ addon | version | maintainers | summary
 [partner_contact_access_link](partner_contact_access_link/) | 18.0.1.0.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Allow to visit the full contact form from a company
 [partner_firstname](partner_firstname/) | 18.0.1.1.0 |  | Split first name and last name for non company partners
 [partner_identification](partner_identification/) | 18.0.1.0.0 |  | Partner Identification Numbers
+[partner_identification_gln](partner_identification_gln/) | 18.0.1.0.0 |  | This addon extends "Partner Identification Numbers" to provide a number category for GLN registration
 [partner_identification_unique_by_category](partner_identification_unique_by_category/) | 18.0.1.0.0 |  | Partner Identification Numbers Unique By Category
 [partner_pricelist_search](partner_pricelist_search/) | 18.0.1.0.0 |  | Partner pricelist search
 [partner_ref_unique](partner_ref_unique/) | 18.0.1.0.0 |  | Add an unique constraint to partner ref field
