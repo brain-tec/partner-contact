@@ -63,7 +63,7 @@ addon | version | maintainers | summary
 [partner_pricelist_search](partner_pricelist_search/) | 17.0.1.0.0 |  | Partner pricelist search
 [partner_property](partner_property/) | 17.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Partner Property
 [partner_ref_unique](partner_ref_unique/) | 17.0.1.0.0 |  | Add an unique constraint to partner ref field
-[partner_second_lastname](partner_second_lastname/) | 17.0.1.0.1 |  | Have split first and second lastnames
+[partner_second_lastname](partner_second_lastname/) | 17.0.1.0.2 |  | Have split first and second lastnames
 [partner_stage](partner_stage/) | 17.0.1.0.0 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Add lifecycle Stages to Partners
 [partner_stage_only_confirmed](partner_stage_only_confirmed/) | 17.0.1.0.0 |  | Adds filters on form views to display only confirmed partners
 [partner_tz](partner_tz/) | 17.0.1.0.0 |  | Remove partner timezone default value and display on form
