@@ -9,14 +9,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-26 15:33+0000\n"
-"PO-Revision-Date: 2017-12-26 15:33+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
+"PO-Revision-Date: 2025-01-22 18:06+0000\n"
+"Last-Translator: Adrià Navarro Rico <anavarro@pyming.com>\n"
 "Language-Team: Catalan (https://www.transifex.com/oca/teams/23907/ca/)\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -33,18 +34,18 @@ msgstr "Actiu"
 #. module: partner_multi_relation
 #: model:ir.model,name:partner_multi_relation.model_res_partner_relation_all
 msgid "All (non-inverse + inverse) relations between partners"
-msgstr ""
+msgstr "Totes les relacions (no inverses + inverses) entre contactes"
 
 #. module: partner_multi_relation
 #: model:ir.model,name:partner_multi_relation.model_res_partner_relation_type_selection
 msgid "All relation types"
-msgstr ""
+msgstr "Tots els tipus de relacions"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__relation_all_ids
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__relation_all_ids
 msgid "All relations with current partner"
-msgstr ""
+msgstr "Totes les relacions amb el contacte actual"
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -53,11 +54,12 @@ msgstr ""
 #, python-format
 msgid "Allow existing relations that do not fit changed conditions"
 msgstr ""
+"Permet les relacions existents que no s'ajusten a les condicions canviades"
 
 #. module: partner_multi_relation
 #: model:ir.model,name:partner_multi_relation.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "Contacte"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__create_uid
@@ -74,12 +76,12 @@ msgstr "Creat el"
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__partner_category_this
 msgid "Current record's category"
-msgstr ""
+msgstr "Categoria del registre actual"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__contact_type_this
 msgid "Current record's partner type"
-msgstr ""
+msgstr "Tipus de contacte del registre actual"
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -87,12 +89,12 @@ msgstr ""
 #: model:ir.model.fields.selection,name:partner_multi_relation.selection__res_partner_relation_type__handle_invalid_onchange__delete
 #, python-format
 msgid "Delete relations that do not fit changed conditions"
-msgstr ""
+msgstr "Elimina les relacions que no s'ajusten a les condicions canviades"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__right_partner_id
 msgid "Destination Partner"
-msgstr ""
+msgstr "Contacte destinatari"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__display_name
@@ -100,7 +102,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__display_name
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__display_name
 msgid "Display Name"
-msgstr "Veure el nom"
+msgstr "Nom mostrat"
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -108,7 +110,7 @@ msgstr "Veure el nom"
 #: model:ir.model.fields.selection,name:partner_multi_relation.selection__res_partner_relation_type__handle_invalid_onchange__restrict
 #, python-format
 msgid "Do not allow change that will result in invalid relations"
-msgstr ""
+msgstr "No permetis canvis que donaran lloc a relacions invàlides"
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -117,6 +119,7 @@ msgstr ""
 #, python-format
 msgid "End relations per today, if they do not fit changed conditions"
 msgstr ""
+"Finalitza les relacions per avui, si no s'ajusten a les condicions canviades"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__date_end
@@ -139,35 +142,35 @@ msgstr "Agrupa Per"
 #. module: partner_multi_relation
 #: model:res.partner.relation.type,name_inverse:partner_multi_relation.rel_type_assistant
 msgid "Has assistant"
-msgstr ""
+msgstr "Té d'assistent"
 
 #. module: partner_multi_relation
 #: model:res.partner.relation.type,name_inverse:partner_multi_relation.rel_type_has_worked_for
 msgid "Has former employee"
-msgstr ""
+msgstr "Té un antic empleat"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__search_relation_type_id
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__search_relation_type_id
 msgid "Has relation of type"
-msgstr ""
+msgstr "Té relació de tipus"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__search_relation_partner_id
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__search_relation_partner_id
 msgid "Has relation with"
-msgstr ""
+msgstr "Té relació amb"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__search_relation_partner_category_id
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__search_relation_partner_category_id
 msgid "Has relation with a partner in category"
-msgstr ""
+msgstr "Té relació amb un soci de la categoria"
 
 #. module: partner_multi_relation
 #: model:res.partner.relation.type,name:partner_multi_relation.rel_type_has_worked_for
 msgid "Has worked for"
-msgstr ""
+msgstr "Ha treballat per"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__id
@@ -180,40 +183,40 @@ msgstr "ID"
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "Include past records"
-msgstr ""
+msgstr "Inclou els registres passats"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__handle_invalid_onchange
 msgid "Invalid relation handling"
-msgstr ""
+msgstr "Gestió de relacions no vàlida"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__name_inverse
 msgid "Inverse name"
-msgstr ""
+msgstr "Nom invers"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_all__is_inverse
 #: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_type_selection__is_inverse
 msgid "Inverse relations are from right to left partner."
-msgstr ""
+msgstr "Les relacions inverses són de parella de dreta a esquerra."
 
 #. module: partner_multi_relation
 #: model:res.partner.relation.type,name:partner_multi_relation.rel_type_assistant
 msgid "Is assistant of"
-msgstr ""
+msgstr "És assistent de"
 
 #. module: partner_multi_relation
 #: model:res.partner.relation.type,name:partner_multi_relation.rel_type_competitor
 #: model:res.partner.relation.type,name_inverse:partner_multi_relation.rel_type_competitor
 msgid "Is competitor of"
-msgstr ""
+msgstr "És competidor de"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__is_inverse
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__is_inverse
 msgid "Is reverse type?"
-msgstr ""
+msgstr "És de tipus invers?"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__write_uid
@@ -230,22 +233,22 @@ msgstr "Darrera Actualització el"
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__partner_category_left
 msgid "Left partner category"
-msgstr ""
+msgstr "Categoria esquerra del contacte"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__contact_type_left
 msgid "Left partner type"
-msgstr ""
+msgstr "Tipus esquerra del contacte"
 
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.form_res_partner_relation_type
 msgid "Left side of relation"
-msgstr ""
+msgstr "Costat esquerre de la relació"
 
 #. module: partner_multi_relation
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "Left to right"
-msgstr ""
+msgstr "D'esquerra a dreta"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__name
@@ -258,43 +261,43 @@ msgstr "Nom"
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 #, python-format
 msgid "No %s partner available for relation type."
-msgstr ""
+msgstr "No hi ha cap contacte %s disponible per al tipus de relació."
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 #, python-format
 msgid "No relation type specified in vals: %s."
-msgstr ""
+msgstr "No s'ha especificat cap tipus de relació en els valors: %s."
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__this_partner_id
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "One Partner"
-msgstr ""
+msgstr "Un contacte"
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_type.py:0
 #, python-format
 msgid "Organisation"
-msgstr ""
+msgstr "Organització"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__other_partner_id
 #: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "Other Partner"
-msgstr ""
+msgstr "Un altre contacte"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__partner_category_other
 msgid "Other record's category"
-msgstr ""
+msgstr "Categoria d'altres registres"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__contact_type_other
 msgid "Other record's partner type"
-msgstr ""
+msgstr "Tipus de contacte d'altres registres"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__any_partner_id
@@ -368,7 +371,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__relation_count
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__relation_count
 msgid "Relation Count"
-msgstr ""
+msgstr "Numero de relacions"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__type_selection_id
