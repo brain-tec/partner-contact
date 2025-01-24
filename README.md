@@ -38,6 +38,7 @@ addon | version | maintainers | summary
 [partner_industry_secondary](partner_industry_secondary/) | 18.0.1.0.0 |  | Add secondary partner industries
 [partner_multi_relation](partner_multi_relation/) | 18.0.1.0.0 |  | Partner Relations
 [partner_pricelist_search](partner_pricelist_search/) | 18.0.1.0.0 |  | Partner pricelist search
+[partner_priority](partner_priority/) | 18.0.1.0.0 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Adds priority to partners.
 [partner_ref_unique](partner_ref_unique/) | 18.0.1.0.0 |  | Add an unique constraint to partner ref field
 [partner_stage](partner_stage/) | 18.0.1.0.0 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Add lifecycle Stages to Partners
 [partner_title_order](partner_title_order/) | 18.0.1.0.0 |  | Makes partner title sortable by sequence
