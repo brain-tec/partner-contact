@@ -39,6 +39,7 @@ addon | version | maintainers | summary
 [partner_identification_unique_by_category](partner_identification_unique_by_category/) | 18.0.1.0.0 |  | Partner Identification Numbers Unique By Category
 [partner_industry_secondary](partner_industry_secondary/) | 18.0.1.0.0 |  | Add secondary partner industries
 [partner_multi_relation](partner_multi_relation/) | 18.0.1.0.0 |  | Partner Relations
+[partner_phonecall_schedule](partner_phonecall_schedule/) | 18.0.1.0.0 |  | Track the time and days your partners expect phone calls
 [partner_pricelist_search](partner_pricelist_search/) | 18.0.1.0.0 |  | Partner pricelist search
 [partner_priority](partner_priority/) | 18.0.1.0.0 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Adds priority to partners.
 [partner_ref_unique](partner_ref_unique/) | 18.0.1.0.0 |  | Add an unique constraint to partner ref field
