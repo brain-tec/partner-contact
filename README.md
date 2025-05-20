@@ -36,6 +36,7 @@ addon | version | maintainers | summary
 [partner_contact_tags_in_popup](partner_contact_tags_in_popup/) | 18.0.1.0.0 | [![carmenbianca](https://github.com/carmenbianca.png?size=30px)](https://github.com/carmenbianca) | Display a contact's tags in the 'Contacts & Addresses' pop-up form view.
 [partner_deduplicate_acl](partner_deduplicate_acl/) | 18.0.1.0.0 |  | Contact deduplication with fine-grained permission control
 [partner_disable_gravatar](partner_disable_gravatar/) | 18.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Disable automatic connection to gravatar.com
+[partner_duns](partner_duns/) | 18.0.1.0.0 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Set DUNS (Data Universal Numbering System) on partners
 [partner_email_check](partner_email_check/) | 18.0.1.0.0 |  | Validate email address field
 [partner_fax](partner_fax/) | 18.0.1.0.0 |  | Add fax number on partner
 [partner_firstname](partner_firstname/) | 18.0.1.1.0 |  | Split first name and last name for non company partners
