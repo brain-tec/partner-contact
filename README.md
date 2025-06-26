@@ -11,6 +11,11 @@
 
 partner-contact
 
+# BT Customizations
+Open OCA PRs merged:
+- [OCA#1897](hhttps://github.com/OCA/partner-contact/pull/1897) partner_manual_rank
+
+
 <!-- /!\ do not modify below this line -->
 
 <!-- prettier-ignore-start -->
