@@ -33,6 +33,7 @@ addon | version | maintainers | summary
 [partner_contact_access_link](partner_contact_access_link/) | 18.0.1.0.0 | <a href='https://github.com/Yajo'><img src='https://github.com/Yajo.png' width='32' height='32' style='border-radius:50%;' alt='Yajo'/></a> | Allow to visit the full contact form from a company
 [partner_contact_birthdate](partner_contact_birthdate/) | 18.0.1.0.0 | <a href='https://github.com/Daemo00'><img src='https://github.com/Daemo00.png' width='32' height='32' style='border-radius:50%;' alt='Daemo00'/></a> | Contact's birthdate
 [partner_contact_gender](partner_contact_gender/) | 18.0.1.0.0 |  | Add gender field to contacts
+[partner_contact_job_position](partner_contact_job_position/) | 18.0.1.0.0 |  | Categorize job positions for contacts
 [partner_contact_lang](partner_contact_lang/) | 18.0.1.0.0 |  | Manage language in contacts
 [partner_contact_personal_information_page](partner_contact_personal_information_page/) | 18.0.1.0.0 | <a href='https://github.com/Daemo00'><img src='https://github.com/Daemo00.png' width='32' height='32' style='border-radius:50%;' alt='Daemo00'/></a> | Add a page to contacts form to put personal information
 [partner_contact_role](partner_contact_role/) | 18.0.1.0.0 |  | Add roles to partners.
@@ -42,6 +43,7 @@ addon | version | maintainers | summary
 [partner_disable_gravatar](partner_disable_gravatar/) | 18.0.1.0.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Disable automatic connection to gravatar.com
 [partner_duns](partner_duns/) | 18.0.1.0.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | Set DUNS (Data Universal Numbering System) on partners
 [partner_email_check](partner_email_check/) | 18.0.1.0.0 |  | Validate email address field
+[partner_external_map](partner_external_map/) | 18.0.1.0.0 |  | Add Map and Map Routing buttons on partner form to open GMaps, OSM, Bing and others
 [partner_fax](partner_fax/) | 18.0.1.0.0 |  | Add fax number on partner
 [partner_firstname](partner_firstname/) | 18.0.1.2.0 |  | Split first name and last name for non company partners
 [partner_identification](partner_identification/) | 18.0.1.0.0 |  | Partner Identification Numbers
