@@ -50,8 +50,9 @@ addon | version | maintainers | summary
 [partner_contact_age_range](partner_contact_age_range/) | 16.0.1.0.1 |  | Age Range for Contact's
 [partner_contact_birthdate](partner_contact_birthdate/) | 16.0.1.0.0 |  | Contact's birthdate
 [partner_contact_birthplace](partner_contact_birthplace/) | 16.0.1.0.0 |  | This module allows to define a birthplace for partners.
-[partner_contact_department](partner_contact_department/) | 16.0.1.3.0 | <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> | Assign contacts to departments
+[partner_contact_department](partner_contact_department/) | 16.0.1.3.1 | <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> | Assign contacts to departments
 [partner_contact_gender](partner_contact_gender/) | 16.0.1.0.0 |  | Add gender field to contacts
+[partner_contact_in_several_companies](partner_contact_in_several_companies/) | 16.0.1.0.0 |  | Allow to have one contact in several partners
 [partner_contact_job_position](partner_contact_job_position/) | 16.0.1.1.0 |  | Categorize job positions for contacts
 [partner_contact_lang](partner_contact_lang/) | 16.0.1.0.0 |  | Manage language in contacts
 [partner_contact_nationality](partner_contact_nationality/) | 16.0.1.0.1 |  | Add nationality field to contacts
