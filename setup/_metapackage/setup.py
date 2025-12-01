@@ -19,6 +19,7 @@ setuptools.setup(
         'odoo-addon-company_default_partner_pricelist>=16.0dev,<16.1dev',
         'odoo-addon-crm_partner_company_group>=16.0dev,<16.1dev',
         'odoo-addon-partner_accreditation>=16.0dev,<16.1dev',
+        'odoo-addon-partner_address_format_domestic>=16.0dev,<16.1dev',
         'odoo-addon-partner_address_split>=16.0dev,<16.1dev',
         'odoo-addon-partner_address_street3>=16.0dev,<16.1dev',
         'odoo-addon-partner_affiliate>=16.0dev,<16.1dev',

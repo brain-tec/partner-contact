@@ -32,6 +32,7 @@ addon | version | maintainers | summary
 [company_default_partner_pricelist](company_default_partner_pricelist/) | 16.0.1.0.0 |  | Define default partner pricelist per company.
 [crm_partner_company_group](crm_partner_company_group/) | 16.0.1.0.0 |  | Adds the possibility to add a company group to a company
 [partner_accreditation](partner_accreditation/) | 16.0.1.0.0 | <a href='https://github.com/victor-champonnois'><img src='https://github.com/victor-champonnois.png' width='32' height='32' style='border-radius:50%;' alt='victor-champonnois'/></a> | Add Accreditation to Partners
+[partner_address_format_domestic](partner_address_format_domestic/) | 16.0.1.0.0 | <a href='https://github.com/yostashiro'><img src='https://github.com/yostashiro.png' width='32' height='32' style='border-radius:50%;' alt='yostashiro'/></a> <a href='https://github.com/aungkokolin1997'><img src='https://github.com/aungkokolin1997.png' width='32' height='32' style='border-radius:50%;' alt='aungkokolin1997'/></a> | Partner Address Format Domestic
 [partner_address_split](partner_address_split/) | 16.0.1.0.0 |  | Add specific helper methods
 [partner_address_street3](partner_address_street3/) | 16.0.1.0.0 |  | Add a third address line on partners
 [partner_affiliate](partner_affiliate/) | 16.0.1.0.0 |  | Partner Affiliates
