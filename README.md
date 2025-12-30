@@ -28,6 +28,7 @@ addon | version | maintainers | summary
 [base_location_geonames_import](base_location_geonames_import/) | 16.0.1.1.0 |  | Import zip entries from Geonames
 [base_location_nuts](base_location_nuts/) | 16.0.1.1.1 | <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> <a href='https://github.com/edlopen'><img src='https://github.com/edlopen.png' width='32' height='32' style='border-radius:50%;' alt='edlopen'/></a> | NUTS Regions
 [base_partner_company_group](base_partner_company_group/) | 16.0.1.0.0 |  | Adds the possibility to add a company group to a company
+[base_partner_merge_user_consolidation](base_partner_merge_user_consolidation/) | 16.0.1.0.0 | <a href='https://github.com/ntsirintanis'><img src='https://github.com/ntsirintanis.png' width='32' height='32' style='border-radius:50%;' alt='ntsirintanis'/></a> | After merging contacts, automatically consolidate their linked user accounts.
 [base_partner_sequence](base_partner_sequence/) | 16.0.1.1.0 |  | Sets customer's code from a sequence
 [company_default_partner_pricelist](company_default_partner_pricelist/) | 16.0.1.0.0 |  | Define default partner pricelist per company.
 [crm_partner_company_group](crm_partner_company_group/) | 16.0.1.0.0 |  | Adds the possibility to add a company group to a company
@@ -93,6 +94,7 @@ addon | version | maintainers | summary
 [partner_pricelist_search](partner_pricelist_search/) | 16.0.1.0.0 |  | Partner pricelist search
 [partner_property](partner_property/) | 16.0.1.1.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Partner Property
 [partner_purchase_manager](partner_purchase_manager/) | 16.0.1.0.1 | <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> | Add purchase manager field in partner
+[partner_quality_log](partner_quality_log/) | 16.0.1.0.0 | <a href='https://github.com/azucenatrey'><img src='https://github.com/azucenatrey.png' width='32' height='32' style='border-radius:50%;' alt='azucenatrey'/></a> | Add quality log to partner.
 [partner_ref_unique](partner_ref_unique/) | 16.0.1.0.0 |  | Add an unique constraint to partner ref field
 [partner_salesperson_propagate](partner_salesperson_propagate/) | 16.0.1.0.0 |  | Propagate any changes in the salesperson field from the partner to its contacts.
 [partner_search_alias](partner_search_alias/) | 16.0.1.0.0 |  | Partner Search Alias
