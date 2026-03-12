@@ -26,12 +26,13 @@ addon | version | maintainers | summary
 [base_location_geonames_import](base_location_geonames_import/) | 19.0.1.0.0 |  | Import zip entries from Geonames
 [base_partner_company_group](base_partner_company_group/) | 19.0.1.1.0 |  | Adds the possibility to add a company group to a company
 [base_partner_sequence](base_partner_sequence/) | 19.0.1.1.0 |  | Sets customer's code from a sequence
+[crm_partner_company_group](crm_partner_company_group/) | 19.0.1.0.0 |  | Adds the possibility to add a company group to a company
 [partner_address_street3](partner_address_street3/) | 19.0.1.0.0 |  | Add a third address line on partners
 [partner_affiliate](partner_affiliate/) | 19.0.1.0.0 |  | Partner Affiliates
 [partner_auto_archive](partner_auto_archive/) | 19.0.1.0.0 |  | Archive periodically all contacts marked as auto-archive.
 [partner_company_default](partner_company_default/) | 19.0.1.0.0 |  | Partner Company Default
 [partner_contact_access_link](partner_contact_access_link/) | 19.0.1.0.0 | <a href='https://github.com/Yajo'><img src='https://github.com/Yajo.png' width='32' height='32' style='border-radius:50%;' alt='Yajo'/></a> | Allow to visit the full contact form from a company
-[partner_contact_address_default](partner_contact_address_default/) | 19.0.1.0.0 |  | Set a default delivery address, invoice address and contact for contacts
+[partner_contact_address_default](partner_contact_address_default/) | 19.0.2.0.0 |  | Set a default delivery address, invoice address and contact for contacts
 [partner_contact_birthdate](partner_contact_birthdate/) | 19.0.1.0.0 | <a href='https://github.com/Daemo00'><img src='https://github.com/Daemo00.png' width='32' height='32' style='border-radius:50%;' alt='Daemo00'/></a> | Contact's birthdate
 [partner_contact_birthplace](partner_contact_birthplace/) | 19.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | This module allows to define a birthplace for partners.
 [partner_contact_department](partner_contact_department/) | 19.0.1.0.0 |  | Assign contacts to departments
@@ -41,6 +42,7 @@ addon | version | maintainers | summary
 [partner_fax](partner_fax/) | 19.0.1.0.0 |  | Add fax number on partner
 [partner_firstname](partner_firstname/) | 19.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Split first name and last name for non company partners
 [partner_identification](partner_identification/) | 19.0.1.0.0 |  | Partner Identification Numbers
+[partner_identification_gln](partner_identification_gln/) | 19.0.1.0.0 |  | This addon extends "Partner Identification Numbers" to provide a number category for GLN registration
 [partner_industry_secondary](partner_industry_secondary/) | 19.0.1.0.0 |  | Add secondary partner industries
 [partner_iterative_archive](partner_iterative_archive/) | 19.0.1.0.0 |  | Archive all contacts when parent is archived
 [partner_manual_rank](partner_manual_rank/) | 19.0.1.0.0 | <a href='https://github.com/luisg123v'><img src='https://github.com/luisg123v.png' width='32' height='32' style='border-radius:50%;' alt='luisg123v'/></a> <a href='https://github.com/frahikLV'><img src='https://github.com/frahikLV.png' width='32' height='32' style='border-radius:50%;' alt='frahikLV'/></a> | Be able to manually flag partners as customer or supplier.
