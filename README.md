@@ -21,6 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[account_partner_company_group](account_partner_company_group/) | 19.0.1.0.0 |  | Adds the possibility to add a company group to a company
 [base_country_state_translatable](base_country_state_translatable/) | 19.0.1.0.0 |  | Translate Country States
 [base_location](base_location/) | 19.0.1.0.1 | <a href='https://github.com/pedrobaeza'><img src='https://github.com/pedrobaeza.png' width='32' height='32' style='border-radius:50%;' alt='pedrobaeza'/></a> | Enhanced zip/npa management system
 [base_location_geonames_import](base_location_geonames_import/) | 19.0.1.0.0 |  | Import zip entries from Geonames
@@ -31,6 +32,7 @@ addon | version | maintainers | summary
 [partner_affiliate](partner_affiliate/) | 19.0.1.0.0 |  | Partner Affiliates
 [partner_auto_archive](partner_auto_archive/) | 19.0.1.0.0 |  | Archive periodically all contacts marked as auto-archive.
 [partner_company_default](partner_company_default/) | 19.0.1.0.0 |  | Partner Company Default
+[partner_company_group](partner_company_group/) | 19.0.1.0.0 | <a href='https://github.com/luisg123v'><img src='https://github.com/luisg123v.png' width='32' height='32' style='border-radius:50%;' alt='luisg123v'/></a> | Adds the possibility to add a company group to a company
 [partner_company_type](partner_company_type/) | 19.0.1.0.0 |  | Adds a company type to partner that are companies
 [partner_contact_access_link](partner_contact_access_link/) | 19.0.1.0.0 | <a href='https://github.com/Yajo'><img src='https://github.com/Yajo.png' width='32' height='32' style='border-radius:50%;' alt='Yajo'/></a> | Allow to visit the full contact form from a company
 [partner_contact_address_default](partner_contact_address_default/) | 19.0.2.0.0 |  | Set a default delivery address, invoice address and contact for contacts
@@ -40,6 +42,7 @@ addon | version | maintainers | summary
 [partner_contact_job_position](partner_contact_job_position/) | 19.0.1.0.0 |  | Categorize job positions for contacts
 [partner_contact_nationality](partner_contact_nationality/) | 19.0.1.0.0 |  | Add nationality field to contacts
 [partner_contact_personal_information_page](partner_contact_personal_information_page/) | 19.0.1.0.0 | <a href='https://github.com/Daemo00'><img src='https://github.com/Daemo00.png' width='32' height='32' style='border-radius:50%;' alt='Daemo00'/></a> | Add a page to contacts form to put personal information
+[partner_country_lang](partner_country_lang/) | 19.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Partner language according country
 [partner_country_state_required](partner_country_state_required/) | 19.0.1.0.0 |  | Partner Country State Required
 [partner_deduplicate_acl](partner_deduplicate_acl/) | 19.0.1.0.0 |  | Contact deduplication with fine-grained permission control
 [partner_deduplicate_by_website](partner_deduplicate_by_website/) | 19.0.1.0.0 |  | Deduplicate Contacts by Website
@@ -65,6 +68,7 @@ addon | version | maintainers | summary
 [partner_tz](partner_tz/) | 19.0.1.0.0 |  | Remove partner timezone default value and display on form
 [partner_utm_source](partner_utm_source/) | 19.0.1.0.0 |  | This module adds the use of utm source in partners
 [partner_vat_unique](partner_vat_unique/) | 19.0.1.0.1 |  | Module to make the VAT number unique for customers and suppliers.
+[sale_partner_company_group](sale_partner_company_group/) | 19.0.1.0.0 |  | Adds the possibility to add a company group to a company
 
 [//]: # (end addons)
 
