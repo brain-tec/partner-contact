@@ -30,3 +30,8 @@ msgstr "Azienda"
 #: model:ir.model,name:partner_company_default.model_res_partner
 msgid "Contact"
 msgstr "Contatto"
+
+#. module: partner_company_default
+#: model:ir.model,name:partner_company_default.model_res_users
+msgid "User"
+msgstr ""
