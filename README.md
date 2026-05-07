@@ -47,6 +47,7 @@ addon | version | maintainers | summary
 [partner_country_state_required](partner_country_state_required/) | 19.0.1.0.0 |  | Partner Country State Required
 [partner_deduplicate_acl](partner_deduplicate_acl/) | 19.0.1.0.0 |  | Contact deduplication with fine-grained permission control
 [partner_deduplicate_by_website](partner_deduplicate_by_website/) | 19.0.1.0.0 |  | Deduplicate Contacts by Website
+[partner_deduplicate_filter](partner_deduplicate_filter/) | 19.0.1.0.0 |  | Exclude records from the deduplication
 [partner_department](partner_department/) | 19.0.1.0.1 |  | Adds department as a partner type
 [partner_email_check](partner_email_check/) | 19.0.1.0.0 |  | Validate email address field
 [partner_email_duplicate_warn](partner_email_duplicate_warn/) | 19.0.1.0.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Warning banner on partner form if other partners have the same email
@@ -59,7 +60,7 @@ addon | version | maintainers | summary
 [partner_iterative_archive](partner_iterative_archive/) | 19.0.1.0.0 |  | Archive all contacts when parent is archived
 [partner_manual_rank](partner_manual_rank/) | 19.0.1.0.0 | <a href='https://github.com/luisg123v'><img src='https://github.com/luisg123v.png' width='32' height='32' style='border-radius:50%;' alt='luisg123v'/></a> <a href='https://github.com/frahikLV'><img src='https://github.com/frahikLV.png' width='32' height='32' style='border-radius:50%;' alt='frahikLV'/></a> | Be able to manually flag partners as customer or supplier.
 [partner_mobile](partner_mobile/) | 19.0.1.0.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Add mobile field on partner
-[partner_multi_relation](partner_multi_relation/) | 19.0.1.0.0 |  | Partner Relations
+[partner_multi_relation](partner_multi_relation/) | 19.0.1.1.0 |  | Partner Relations
 [partner_pricelist_search](partner_pricelist_search/) | 19.0.1.0.0 |  | Partner pricelist search
 [partner_priority](partner_priority/) | 19.0.1.0.0 | <a href='https://github.com/patrickrwilson'><img src='https://github.com/patrickrwilson.png' width='32' height='32' style='border-radius:50%;' alt='patrickrwilson'/></a> | Adds priority to partners.
 [partner_ref_unique](partner_ref_unique/) | 19.0.1.0.0 |  | Add an unique constraint to partner ref field
