@@ -43,6 +43,7 @@ addon | version | maintainers | summary
 [partner_contact_job_position](partner_contact_job_position/) | 19.0.1.0.0 |  | Categorize job positions for contacts
 [partner_contact_nationality](partner_contact_nationality/) | 19.0.1.0.0 |  | Add nationality field to contacts
 [partner_contact_personal_information_page](partner_contact_personal_information_page/) | 19.0.1.0.0 | <a href='https://github.com/Daemo00'><img src='https://github.com/Daemo00.png' width='32' height='32' style='border-radius:50%;' alt='Daemo00'/></a> | Add a page to contacts form to put personal information
+[partner_contact_role](partner_contact_role/) | 19.0.1.0.0 |  | Add roles to partners.
 [partner_country_lang](partner_country_lang/) | 19.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Partner language according country
 [partner_country_state_required](partner_country_state_required/) | 19.0.1.0.0 |  | Partner Country State Required
 [partner_deduplicate_acl](partner_deduplicate_acl/) | 19.0.1.0.0 |  | Contact deduplication with fine-grained permission control
@@ -70,6 +71,7 @@ addon | version | maintainers | summary
 [partner_supplier_ref](partner_supplier_ref/) | 19.0.1.0.0 |  | Adds a supplier reference to contacts
 [partner_title](partner_title/) | 19.0.1.0.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Add title field on partner
 [partner_title_contacts](partner_title_contacts/) | 19.0.1.0.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Glue module between contacts and partner_title
+[partner_type_base](partner_type_base/) | 19.0.1.0.0 | <a href='https://github.com/CRogos'><img src='https://github.com/CRogos.png' width='32' height='32' style='border-radius:50%;' alt='CRogos'/></a> | Base implementation to improve the address type customization.
 [partner_tz](partner_tz/) | 19.0.1.0.0 |  | Remove partner timezone default value and display on form
 [partner_utm_source](partner_utm_source/) | 19.0.1.0.0 |  | This module adds the use of utm source in partners
 [partner_vat_unique](partner_vat_unique/) | 19.0.1.0.1 |  | Module to make the VAT number unique for customers and suppliers.
