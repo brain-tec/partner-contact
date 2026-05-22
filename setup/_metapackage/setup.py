@@ -77,6 +77,7 @@ setuptools.setup(
         'odoo-addon-partner_middlename>=16.0dev,<16.1dev',
         'odoo-addon-partner_mobile_duplicate_warn>=16.0dev,<16.1dev',
         'odoo-addon-partner_multi_relation>=16.0dev,<16.1dev',
+        'odoo-addon-partner_multi_relation_archive_propagate>=16.0dev,<16.1dev',
         'odoo-addon-partner_multi_relation_function>=16.0dev,<16.1dev',
         'odoo-addon-partner_phone_extension>=16.0dev,<16.1dev',
         'odoo-addon-partner_phonecall_schedule>=16.0dev,<16.1dev',
